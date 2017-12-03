@@ -1,0 +1,9 @@
+{
+  "name": "BTL_Nhom1",
+  "private": true,
+  "dependencies": {
+    "vue": "^2.5.9",
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "^2.5.9"
+  }
+}
