@@ -43,3 +43,17 @@ task init_combinations: :environment do
     })
   end
 end
+
+desc "Initial universal points"
+task init_universal_points: :environment do
+  points = CSV.read('./lib/tasks/seeds_db/universal_point.csv')
+
+  points[1..-1].each do |point|
+    UniversalPoint.create({
+      id: point[0],
+      year: point[1],
+      combination: point[2],
+      ranges: point[3..-1],
+    })
+  end
+end
