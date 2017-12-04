@@ -16,3 +16,15 @@ task add_users: :environment do
     u.save
   end
 end
+
+desc "Initial subjects"
+task init_subjects: :environment do
+  subjects = CSV.read('./lib/tasks/seeds_db/subject.csv')
+
+  subjects[1..-1].each do |subject|
+    Subject.create({
+      id: subject[0],
+      name: subject[1]
+    })
+  end
+end
