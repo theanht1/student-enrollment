@@ -57,3 +57,22 @@ task init_universal_points: :environment do
     })
   end
 end
+
+desc "Initial universities"
+task init_universities: :environment do
+  unis = CSV.read('./lib/tasks/seeds_db/universities.csv')
+
+  unis[1..-1].each do |uni|
+    combs = uni[3].split(',').map { |comb| comb.strip }
+    University.create({
+      code: uni[0],
+      name: uni[1],
+      branch: uni[2],
+      combinations: combs,
+      amount_2016: uni[4],
+      score_2016: uni[5],
+      amount_2017: uni[6]
+    })
+  end
+end
+

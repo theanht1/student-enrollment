@@ -1,0 +1,843 @@
+code,name,branch,combination,amout_2016,score_2016,amount_2017
+LPH,Đại học Luật Hà Nội,Luật,A00,1480,23.25,1480
+LPH,Đại học Luật Hà Nội,Luật,C00,1480,26.25,1480
+LPH,Đại học Luật Hà Nội,Luật,D01,1480,21.75,1480
+LPH,Đại học Luật Hà Nội,Luật Kinh tế,A00,300,25.25,300
+LPH,Đại học Luật Hà Nội,Luật Kinh tế,C00,300,28,300
+LPH,Đại học Luật Hà Nội,Luật Kinh tế,D01,300,23.75,300
+LPH,Đại học Luật Hà Nội,Luật Thương mại Quốc tế,D01,120,31.25,120
+LPH,Đại học Luật Hà Nội,Ngôn ngữ Anh,D01,120,29.25,100
+KTA,Đại học Kiến trúc Hà Nội,Cấp thoát nước,A00,150,16,300
+KTA,Đại học Kiến trúc Hà Nội,Thiết kế đồ họa,H00,50,19.25,50
+KTA,Đại học Kiến trúc Hà Nội,Thiết kế nội thất,H00,100,17.75,100
+KTA,Đại học Kiến trúc Hà Nội,Công nghệ kỹ thuật vật liệu xây dựng,A00,50,16.25,100
+KTA,Đại học Kiến trúc Hà Nội,Kiến trúc,V00,350,25.75,350
+KTA,Đại học Kiến trúc Hà Nội,Quy hoạch vùng và đô thị,V00,150,23.75,150
+KTA,Đại học Kiến trúc Hà Nội,Kiến trúc cảnh quan,V00,50,23,50
+KTA,Đại học Kiến trúc Hà Nội,Xây dựng dân dụng và công nghiệp,A00,450,20.25,450
+KTA,Đại học Kiến trúc Hà Nội,Xây dựng công trình ngầm đô thị,A00,50,19.75,100
+KTA,Đại học Kiến trúc Hà Nội,Kỹ thuật hạ tầng đô thị,A00,100,18.75,300
+KTA,Đại học Kiến trúc Hà Nội,Kỹ thuật môi trường đô thị,A00,50,16,300
+KTA,Đại học Kiến trúc Hà Nội,Kinh tế xây dựng,A00,150,20.25,200
+KTA,Đại học Kiến trúc Hà Nội,Quản lý xây dựng,A00,150,16.25,100
+GHA,Đại học Giao thông Vận tải,Kỹ thuật xây dựng công trình giao thông,A00,888,20.16,888
+GHA,Đại học Giao thông Vận tải,Kỹ thuật xây dựng công trình giao thông,A01,297,16.95,297
+GHA,Đại học Giao thông Vận tải,Công nghệ thông tin,A00,150,22.5,150
+GHA,Đại học Giao thông Vận tải,Công nghệ thông tin,A01,50,21.09,50
+GHA,Đại học Giao thông Vận tải,Kỹ thuật cơ khí,A00,428,20.91,428
+GHA,Đại học Giao thông Vận tải,Kỹ thuật cơ khí,A01,142,18.24,142
+GHA,Đại học Giao thông Vận tải,"Kỹ thuật điện tử, truyền thông",A00,94,21.3,94
+GHA,Đại học Giao thông Vận tải,"Kỹ thuật điện tử, truyền thông",A01,31,19.14,31
+GHA,Đại học Giao thông Vận tải,Kỹ thuật điện điện tử,A00,94,21.99,94
+GHA,Đại học Giao thông Vận tải,Kỹ thuật điện điện tử,A01,31,19.86,31
+GHA,Đại học Giao thông Vận tải,Kỹ thuật điều khiển và tự động hóa,A00,90,22.71,90
+GHA,Đại học Giao thông Vận tải,Kỹ thuật điều khiển và tự động hóa,A01,30,20.88,30
+GHA,Đại học Giao thông Vận tải,Quản trị kinh doanh,A00,83,20.49,83
+GHA,Đại học Giao thông Vận tải,Quản trị kinh doanh,A01,27,19.92,27
+GHA,Đại học Giao thông Vận tải,Kinh tế,A00,45,21.39,45
+GHA,Đại học Giao thông Vận tải,Kinh tế,A01,15,20.22,15
+GHA,Đại học Giao thông Vận tải,Kinh tế xây dựng,A00,60,21.9,60
+GHA,Đại học Giao thông Vận tải,Kinh tế xây dựng,A01,20,20.64,20
+GHA,Đại học Giao thông Vận tải,Kế toán,A00,71,21.6,71
+GHA,Đại học Giao thông Vận tải,Kế toán,A01,24,20.52,24
+GHA,Đại học Giao thông Vận tải,Khai thác vận tải,A00,90,19.59,90
+GHA,Đại học Giao thông Vận tải,Khai thác vận tải,A01,30,17.88,30
+GHA,Đại học Giao thông Vận tải,Kinh tế vận tải,A00,90,20.4,90
+GHA,Đại học Giao thông Vận tải,Kinh tế vận tải,A01,30,19.74,30
+GHA,Đại học Giao thông Vận tải,Kỹ thuật môi trường,A00,38,19.8,38
+GHA,Đại học Giao thông Vận tải,Kỹ thuật môi trường,A01,12,18.21,12
+GHA,Đại học Giao thông Vận tải,Công nghệ kỹ thuật giao thông,A00,38,20.01,38
+GHA,Đại học Giao thông Vận tải,Công nghệ kỹ thuật giao thông,A01,12,17.85,12
+GHA,Đại học Giao thông Vận tải,Kỹ thuật xây dựng,A00,180,19.86,180
+GHA,Đại học Giao thông Vận tải,Kỹ thuật xây dựng,A01,60,17.04,60
+DHA,Đại học Luật - Đại học Huế,Luật,"A00, A01, C00, D01",550,20.5,650
+DHA,Đại học Luật - Đại học Huế,Luật kinh tế,"A00, A01, C00, D01",350,20.5,400
+DHC,Khoa Giáo dục Thể chất - Đại học Huế,Giáo dục thể chất,T00,160,16.5,100
+DHD,Khoa Du lịch - Đại học Huế,Kinh tế,"A00, A01, D01, D10",50,17,50
+DHD,Khoa Du lịch - Đại học Huế,Quản trị kinh doanh,"A00, A01, D01, D10",200,17,200
+DHD,Khoa Du lịch - Đại học Huế,Quản trị dịch vụ du lịch và lữ hành,"A00, A01, C00, D10",300,18,350
+DHF,Đại học Ngoại ngữ - Đại học Huế,Sư phạm tiếng Anh,D01,100,23.5,80
+DHF,Đại học Ngoại ngữ - Đại học Huế,Sư phạm tiếng Pháp,"D03, D01",30,20,30
+DHF,Đại học Ngoại ngữ - Đại học Huế,Sư phạm tiếng Trung Quốc,"D04, D01",30,21.25,30
+DHF,Đại học Ngoại ngữ - Đại học Huế,Việt Nam học,D01,50,18,50
+DHF,Đại học Ngoại ngữ - Đại học Huế,Ngôn ngữ Anh,D01,540,20.5,550
+DHF,Đại học Ngoại ngữ - Đại học Huế,Ngôn ngữ Nga,"D02,.D01",40,20,30
+DHF,Đại học Ngoại ngữ - Đại học Huế,Ngôn ngữ Pháp,"D03, D01",50,20.5,50
+DHF,Đại học Ngoại ngữ - Đại học Huế,Ngôn ngữ Trung Quốc,"D04, D01",160,21.5,200
+DHF,Đại học Ngoại ngữ - Đại học Huế,Ngôn ngữ Nhật,"D06, D01",180,23.75,200
+DHF,Đại học Ngoại ngữ - Đại học Huế,Ngôn ngữ Hàn Quốc,D01,70,24.25,100
+DHF,Đại học Ngoại ngữ - Đại học Huế,Quốc tế học,D01,50,20,50
+DHK,Đại học Kinh tế - Đại học Huế,Kinh tế,"A00, A01, D01, C01",280,19,280
+DHK,Đại học Kinh tế - Đại học Huế,Marketing,"A00, A01, D01, C01",80,20,80
+DHK,Đại học Kinh tế - Đại học Huế,Kinh doanh thương mại,"A00, A01, D01, C01",170,19,170
+DHK,Đại học Kinh tế - Đại học Huế,Tài chính - Ngân hàng,"A00, A01, D01, D03",150,19,150
+DHK,Đại học Kinh tế - Đại học Huế,Kế toán,"A00, A01, D01, C01",170,20,170
+DHK,Đại học Kinh tế - Đại học Huế,Kiểm toán,"A00, A01, D01, C01",160,20,160
+DHK,Đại học Kinh tế - Đại học Huế,Quản trị nhân lực,"A00, A01, D01, C01",70,19,70
+DHK,Đại học Kinh tế - Đại học Huế,Hệ thống thông tin quản lý,"A00, A01, D01, C01",150,18,150
+DHK,Đại học Kinh tế - Đại học Huế,Kinh doanh nông nghiệp,"A00, A01, D01, C01",50,16,50
+DHK,Đại học Kinh tế - Đại học Huế,Kinh tế nông nghiệp,"A00, A01, D01, C01",150,17,150
+DHK,Đại học Kinh tế - Đại học Huế,Tài chính - Ngân hàng (liên kết),"A00, A01, D01, D03",50,16,50
+DHL,Đại học Nông lâm - Đại học Huế,Công nghệ kỹ thuật cơ khí,"A00, A01",60,18,70
+DHL,Đại học Nông lâm - Đại học Huế,Kỹ thuật cơ - điện tử,"A00, A01",50,18,80
+DHL,Đại học Nông lâm - Đại học Huế,Kỹ thuật cơ sở hạ tầng,"A00, A01",50,16,50
+DHL,Đại học Nông lâm - Đại học Huế,Công nghệ thực phẩm,"A00, B00",150,20,190
+DHL,Đại học Nông lâm - Đại học Huế,Công nghệ sau thu hoạch,"A00, B00",50,17,50
+DHL,Đại học Nông lâm - Đại học Huế,Quản lý đất đai,"A00, B00",250,16,200
+DHL,Đại học Nông lâm - Đại học Huế,Khoa học đất,"A00, B00",30,15,30
+DHL,Đại học Nông lâm - Đại học Huế,Nông học,"A00, B00",50,17,60
+DHL,Đại học Nông lâm - Đại học Huế,Bảo vệ thực vật,"A00, B00",100,16,100
+DHL,Đại học Nông lâm - Đại học Huế,Khoa học cây trồng,"A00, B00",150,16,140
+DHL,Đại học Nông lâm - Đại học Huế,Công nghệ rau hoa quả và cảnh quan,"A00, B00",50,15,50
+DHL,Đại học Nông lâm - Đại học Huế,Chăn nuôi,"A00, B00",160,19,270
+DHL,Đại học Nông lâm - Đại học Huế,Thú y,"A00, B00",200,20.25,230
+DHL,Đại học Nông lâm - Đại học Huế,Nuôi trồng thủy sản,"A00, B00",220,17,200
+DHL,Đại học Nông lâm - Đại học Huế,Quản lý nguồn lợi thủy sản,"A00, B00",50,15,50
+DHL,Đại học Nông lâm - Đại học Huế,Công nghệ chế biến lâm sản,"A00, A01",45,15,30
+DHL,Đại học Nông lâm - Đại học Huế,Lâm nghiệp,"A00, B00",100,15,100
+DHL,Đại học Nông lâm - Đại học Huế,Lâm nghiệp đô thị,"A00, B00",45,15,30
+DHL,Đại học Nông lâm - Đại học Huế,Quản lý tài nguyên rừng,"A00, B00",100,15,70
+DHL,Đại học Nông lâm - Đại học Huế,Khuyến nông,"A00, B00",50,15,50
+DHN,Đại học Nghệ thuật - Đại học Huế,Sư phạm Mỹ thuật,H00,30,32.5,15
+DHN,Đại học Nghệ thuật - Đại học Huế,Hội họa,H00,20,33,10
+DHN,Đại học Nghệ thuật - Đại học Huế,Thiết kế đồ họa,H00,60,24.75,40
+DHN,Đại học Nghệ thuật - Đại học Huế,Thiết kế thời trang,H00,25,27.25,20
+DHN,Đại học Nghệ thuật - Đại học Huế,Thiết kế nội thất,H00,60,26.75,40
+DHQ,Phân hiệu Đại học Huế tại Quảng Trị,Công nghệ kỹ thuật môi trường,"A00, A01, B00, D07",50,15,60
+DHQ,Phân hiệu Đại học Huế tại Quảng Trị,Kỹ thuật công trình xây dựng,"A00, A01, D07",50,15,60
+DHQ,Phân hiệu Đại học Huế tại Quảng Trị,"Kỹ thuật điện, điện tử","A00, A01, D07",50,15,60
+DHS,Đại học Sư phạm - Đại học Huế,Sư phạm Toán học,"A00, A01",150,26,140
+DHS,Đại học Sư phạm - Đại học Huế,Sư phạm Tin học,"A00, A01",90,18,100
+DHS,Đại học Sư phạm - Đại học Huế,Sư phạm Vật lý,"A00, A01",120,18,120
+DHS,Đại học Sư phạm - Đại học Huế,Sư phạm Kỹ thuật công nghiệp,"A00, A01",30,15,30
+DHS,Đại học Sư phạm - Đại học Huế,Sư phạm Hóa học,"A00, B00, D07",120,24,120
+DHS,Đại học Sư phạm - Đại học Huế,Sư phạm Sinh học,"B00, D08",120,18,120
+DHS,Đại học Sư phạm - Đại học Huế,Giáo dục chính trị,"C00,D01, D14",50,15,80
+DHS,Đại học Sư phạm - Đại học Huế,Sư phạm Ngữ văn,"C00, D14",200,21,200
+DHS,Đại học Sư phạm - Đại học Huế,Sư phạm Lịch sử,"C00, D14",150,18,140
+DHS,Đại học Sư phạm - Đại học Huế,Sư phạm Địa lý,"B00, C00, D15, D10",150,15,140
+DHS,Đại học Sư phạm - Đại học Huế,Tâm lý học giáo dục,"C00, D13, D01, D08",50,15,50
+DHS,Đại học Sư phạm - Đại học Huế,Giáo dục Tiểu học,"C00, D01",160,20.25,150
+DHS,Đại học Sư phạm - Đại học Huế,Giáo dục Mầm non,"M00, M01",160,17.25,160
+DHS,Đại học Sư phạm - Đại học Huế,Vật lý (chương trình tiên tiến),"A00, A01",30,18,30
+DHT,Đại học Khoa học - Đại học Huế,Triết học,"A00, C00, D01",60,15,60
+DHT,Đại học Khoa học - Đại học Huế,Lịch sử,"C00, D01, D14",100,15,100
+DHT,Đại học Khoa học - Đại học Huế,Xã hội học,"C00, D01, D14",60,15,60
+DHT,Đại học Khoa học - Đại học Huế,Báo chí,"C00, D01, D14",180,17,180
+DHT,Đại học Khoa học - Đại học Huế,Sinh học,"A00, B00, D08",80,15,80
+DHT,Đại học Khoa học - Đại học Huế,Công nghệ sinh học,"A00, B00, D08",100,17,100
+DHT,Đại học Khoa học - Đại học Huế,Vật lý học,"A00, A01",70,15,70
+DHT,Đại học Khoa học - Đại học Huế,Hóa học,"A00, B00, D07",100,15,100
+DHT,Đại học Khoa học - Đại học Huế,Địa lý tự nhiên,"A00, B00, D10",60,15,60
+DHT,Đại học Khoa học - Đại học Huế,Khoa học môi trường,"A00, B00, D07",100,15,100
+DHT,Đại học Khoa học - Đại học Huế,Công nghệ thông tin,"A00, A01",250,24.5,250
+DHT,Đại học Khoa học - Đại học Huế,Kiến trúc,"V00, V01",150,20,150
+DHT,Đại học Khoa học - Đại học Huế,Công tác xã hội,"C00, D01, D14",150,15.5,150
+DHT,Đại học Khoa học - Đại học Huế,Quản lý tài nguyên và môi trường,"A00, B00, D08",100,16,100
+DHT,Đại học Khoa học - Đại học Huế,Hán - Nôm,"C00, D01, D14",30,15,30
+DHT,Đại học Khoa học - Đại học Huế,Ngôn ngữ học,"C00, D01, D14",40,15,40
+DHT,Đại học Khoa học - Đại học Huế,Văn học,"C00, D14",130,15,120
+DHT,Đại học Khoa học - Đại học Huế,Toán học,"A00, A01",60,18,50
+DHT,Đại học Khoa học - Đại học Huế,Toán ứng dụng,"A00, 101",60,18,60
+DHT,Đại học Khoa học - Đại học Huế,Kỹ thuật địa chất,"A00, D07",100,15,100
+DHT,Đại học Khoa học - Đại học Huế,Kỹ thuật trắc địa - Bản đồ,"A00, A01",45,15,45
+DHT,Đại học Khoa học - Đại học Huế,Địa chất học,"A00, D07",45,15,45
+DHY,Đại học Y Dược - Đại học Huế,Y đa khoa,B00,550,26,500
+DHY,Đại học Y Dược - Đại học Huế,Răng - Hàm - Mặt,B00,100,25.75,100
+DHY,Đại học Y Dược - Đại học Huế,Y học dự phòng,B00,180,22.75,160
+DHY,Đại học Y Dược - Đại học Huế,Y học cổ truyền,B00,80,24.5,80
+DHY,Đại học Y Dược - Đại học Huế,Dược học,A00,180,25.5,180
+DHY,Đại học Y Dược - Đại học Huế,Điều dưỡng,B00,150,22.5,200
+DHY,Đại học Y Dược - Đại học Huế,Kỹ thuật hình ảnh y học,B00,60,23.25,80
+DHY,Đại học Y Dược - Đại học Huế,Xét nghiệm y học,B00,100,23.25,100
+DHY,Đại học Y Dược - Đại học Huế,Y tế công cộng,B00,100,21,100
+HVN,Học viện Nông nghiệp Việt Nam,Bảo vệ thực vật,"A00, A01, B00, D01",220,15,150
+HVN,Học viện Nông nghiệp Việt Nam,Chăn nuôi,"A00, A01, B00, D01",420,18.25,500
+HVN,Học viện Nông nghiệp Việt Nam,Công nghệ rau - hoa - quả và cảnh quan,"A00, A01, B00, D01",65,18.5,100
+HVN,Học viện Nông nghiệp Việt Nam,Công nghệ sau thu hoạch,"A00, A01, B00, D01",65,15,120
+HVN,Học viện Nông nghiệp Việt Nam,Công nghệ sinh học,"A00, A01, B00, D01",285,20.5,320
+HVN,Học viện Nông nghiệp Việt Nam,Công nghệ thông tin,"A00, A01, D01, C01",145,17,180
+HVN,Học viện Nông nghiệp Việt Nam,Công nghệ thực phẩm,"A00, A01, B00, D01",245,21.25,320
+HVN,Học viện Nông nghiệp Việt Nam,Công thôn,"A00, A01, D01, C01",35,15,30
+HVN,Học viện Nông nghiệp Việt Nam,Kế toán,"A00, A01, D01, C01",220,18,400
+HVN,Học viện Nông nghiệp Việt Nam,Khoa học đất,"A00, A01, B00, D01",45,15,30
+HVN,Học viện Nông nghiệp Việt Nam,Khoa học môi trường,"A00, A01, B00, D01",395,16,320
+HVN,Học viện Nông nghiệp Việt Nam,Kinh doanh nông nghiệp,"A00, A01, B00, D01",40,15,30
+HVN,Học viện Nông nghiệp Việt Nam,Kinh tế,"A00, A01, B00, D01",385,15.5,400
+HVN,Học viện Nông nghiệp Việt Nam,Kỹ thuật cơ khí,"A00, A01, D01, C01",170,15,140
+HVN,Học viện Nông nghiệp Việt Nam,"Kỹ thuật điện, điện tử","A00, A01, D01, C01",170,15,200
+DNV,Đại học Nội vụ Hà Nội,Quản trị nhân lực,"D01, C00,A01, A00",260,17,290
+DNV,Đại học Nội vụ Hà Nội,Quản trị nhân lực,C00,260,23.5,290
+DNV,Đại học Nội vụ Hà Nội,Quản trị văn phòng,"D01, A01,A00",240,17,285
+DNV,Đại học Nội vụ Hà Nội,Quản trị văn phòng,C00,240,21.5,285
+DNV,Đại học Nội vụ Hà Nội,Quản lí nhà nước,"D01, A01,A00",260,17,200
+DNV,Đại học Nội vụ Hà Nội,Quản lí nhà nước,C00,260,21.5,200
+DNV,Đại học Nội vụ Hà Nội,Quản lí văn hóa,"D01, A01",140,16,105
+DNV,Đại học Nội vụ Hà Nội,Quản lí văn hóa,"C00, C03",140,19.5,105
+DNV,Đại học Nội vụ Hà Nội,Lưu trữ học,"D01, A01",180,16,110
+DNV,Đại học Nội vụ Hà Nội,Lưu trữ học,C00,180,19,110
+DNV,Đại học Nội vụ Hà Nội,Khoa học thư viện,"D01, A01",120,16,50
+DNV,Đại học Nội vụ Hà Nội,Khoa học thư viện,"C00, C03",120,18,50
+DDL,Đại học Điện lực,Quản trị doanh nghiệp,"A00, A01, D01, D07",70,17,60
+DDL,Đại học Điện lực,Quản trị doanh nghiệp chât lượng Cao,"A00, A01,D01, D07",40,15,30
+DDL,Đại học Điện lực,Tài chính ngân hàng,"D01, D07",50,17,60
+DDL,Đại học Điện lực,Tài chính ngân hàng chất lượng cao,"A00, A01, D01, D07",40,15,30
+DDL,Đại học Điện lực,Kế toán doanh nghiệp,"A00, A01, D01, D07",100,18,150
+DDL,Đại học Điện lực,Kế toán tài chính và kiểm soát,"A00, A01, D01, D07",50,16.5,60
+DDL,Đại học Điện lực,Kế toán doanh nghiệp chất lượng cao,"A00, A01,D01, D07",40,16,30
+DDL,Đại học Điện lực,Công nghệ phần mềm,"A00, A01, D01, D07",55,18.5,100
+DDL,Đại học Điện lực,Thương mại điện tử,"A00, A01,D01, D07",35,17.75,50
+DDL,Đại học Điện lực,Quản lý dự án và công trình điện,"A00, A01, D07",35,15,30
+DDL,Đại học Điện lực,Công nghệ chế tạo máy,"A00, A01, D07",40,18,60
+DDL,Đại học Điện lực,Hệ thống điện,"A00, A01,D07",140,17.75,200
+DDL,Đại học Điện lực,Nhiệt điện,"A00, A01,D07",50,15.75,50
+DDL,Đại học Điện lực,Điện lạnh,"A00, A01,D07",35,19.25,100
+DDL,Đại học Điện lực,Điện công nghiệp và dân dụng,"A00, A01, D07",70,19.5,40
+DDL,Đại học Điện lực,Công nghệ chế tạo thiết bị điện,"A00, A01, D07",35,17,40
+DDL,Đại học Điện lực,Năng lượng tái tạo,"A00, A01,D07",35,15,30
+DDL,Đại học Điện lực,Hệ thống điện Chất lượng cao,"A00, A01, D07",40,15,40
+DDL,Đại học Điện lực,Điện công nghiệp và dân dụng chất lượng cao,"A00, A01,D07",40,18,100
+DDL,Đại học Điện lực,Điện tử viễn thông,"A00, A01,D07",80,17.5,100
+DDL,Đại học Điện lực,Kỹ thuật điện tử,"A00, A01,D07",40,19.25,100
+DDL,Đại học Điện lực,Thiết bị điện tử y tế,"A00, A01,D07",40,15.75,30
+DDL,Đại học Điện lực,Công nghệ tự động,"A00, A01,D07",80,18.25,100
+DDL,Đại học Điện lực,Tự động hóa và điều khiển thiết bị điện công nghiệp,"A00, A01, D07",55,20.25,80
+SPH,Đại học Sư phạm Hà Nội,Quản lí giáo dục,A00,10,21.5,10
+SPH,Đại học Sư phạm Hà Nội,Quản lí giáo dục,C00,15,22.25,15
+SPH,Đại học Sư phạm Hà Nội,Giáo dục tiểu học SP Tiếng Anh,D01,40,22.75,40
+SPH,Đại học Sư phạm Hà Nội,Giáo dục đặc biệt,B03,12,18.75,12
+SPH,Đại học Sư phạm Hà Nội,Giáo dục đặc biệt,C00,20,22.5,20
+SPH,Đại học Sư phạm Hà Nội,Giáo dục công dân,C00,17,21,17
+SPH,Đại học Sư phạm Hà Nội,Giáo dục công dân,C03,17,19.25,17
+SPH,Đại học Sư phạm Hà Nội,Giáo dục công dân,C04,18,18.75,18
+SPH,Đại học Sư phạm Hà Nội,Giáo dục chính trị,C00,25,21.25,25
+SPH,Đại học Sư phạm Hà Nội,Giáo dục chính trị,C03,25,18.25,25
+SPH,Đại học Sư phạm Hà Nội,Giáo dục chính trị,C04,25,18.75,25
+SPH,Đại học Sư phạm Hà Nội,Giáo dục thể chất,T00,70,25.5,70
+SPH,Đại học Sư phạm Hà Nội,SP Tin học,A00,25,18.25,25
+SPH,Đại học Sư phạm Hà Nội,SP Tin học,A01,15,18.75,15
+SPH,Đại học Sư phạm Hà Nội,Toán học,A00,20,20.75,20
+SPH,Đại học Sư phạm Hà Nội,Toán học,A01,10,20.5,10
+SPH,Đại học Sư phạm Hà Nội,Toán học,D01,10,20.75,10
+SPH,Đại học Sư phạm Hà Nội,Công nghệ thông tin,A00,50,16.75,50
+SPH,Đại học Sư phạm Hà Nội,Công nghệ thông tin,A01,30,18.25,30
+SPH,Đại học Sư phạm Hà Nội,Văn học,C00,20,23.25,20
+SPH,Đại học Sư phạm Hà Nội,Văn học,C03,5,21.5,5
+SPH,Đại học Sư phạm Hà Nội,Văn học,C04,5,22.5,5
+SPH,Đại học Sư phạm Hà Nội,Công tác xã hội,C00,30,18,30
+SPH,Đại học Sư phạm Hà Nội,Công tác xã hội,D14,20,16.5,20
+SPH,Đại học Sư phạm Hà Nội,Công tác xã hội,D00,50,18.25,50
+DTS,Đại học Sư phạm Thái Nguyên,Giáo dục học,"C00, D01, B03",60,15,50
+DTS,Đại học Sư phạm Thái Nguyên,Giáo dục mầm non,M00,150,22.5,160
+DTS,Đại học Sư phạm Thái Nguyên,Giáo dục Tiểu học,"D01, C010, C02",120,17,140
+DTS,Đại học Sư phạm Thái Nguyên,Giáo dục Chính trị,"D01, C00, C03, C04",70,15,50
+DTS,Đại học Sư phạm Thái Nguyên,Giáo dục Thể chất,T00,100,15,40
+DTS,Đại học Sư phạm Thái Nguyên,Sư phạm Toán học,"A00, A01",200,20.5,180
+DTS,Đại học Sư phạm Thái Nguyên,Sư phạm Tin học,"A00, A01",60,15,40
+DTS,Đại học Sư phạm Thái Nguyên,Sư phạm Vật lý,"A00, A01, C01",80,17,60
+DTS,Đại học Sư phạm Thái Nguyên,Sư phạm Hóa học,"A00,D07",120,16,80
+DTS,Đại học Sư phạm Thái Nguyên,Sư phạm Sinh học,"A00, D07, B00, D08",120,16,60
+DTS,Đại học Sư phạm Thái Nguyên,Sư phạm Ngữ văn,"C00, D14, D01",180,20.5,160
+DTS,Đại học Sư phạm Thái Nguyên,Sư phạm Lịch Sử,C00,100,17,50
+YCT,Đại học Y dược Cần Thơ,Y tế công cộng,B00,40,21.25,40
+YCT,Đại học Y dược Cần Thơ,Xét nghiệm y học,B00,80,23.25,80
+YCT,Đại học Y dược Cần Thơ,Điều dưỡng đa khoa,B00,80,22.25,80
+SPS,Đại học Sư phạm TP HCM,SP Toán học,A00,150,33,150
+SPS,Đại học Sư phạm TP HCM,SP Toán học,A01,150,33,150
+SPS,Đại học Sư phạm TP HCM,SP Tin học,"A00, A01",90,19,90
+SPS,Đại học Sư phạm TP HCM,SP Vật lý,"A00, A01",100,31.5,100
+SPS,Đại học Sư phạm TP HCM,SP Vật lý,C01,100,31.5,100
+SPS,Đại học Sư phạm TP HCM,SP hóa học,A00,80,31,80
+SPS,Đại học Sư phạm TP HCM,SP Sinh học,B00,80,28,80
+SPS,Đại học Sư phạm TP HCM,SP Sinh học,D08,80,28,80
+SPS,Đại học Sư phạm TP HCM,SP Ngữ văn,"C00, D01",120,30.5,120
+SPS,Đại học Sư phạm TP HCM,SP Ngữ văn,"C03, C04",120,30.5,120
+SPS,Đại học Sư phạm TP HCM,SP Lịch sử,C00,90,26,80
+SPS,Đại học Sư phạm TP HCM,SP Lịch sử,D14,90,26,80
+SPS,Đại học Sư phạm TP HCM,SP Địa lý,C00,90,29,90
+SPS,Đại học Sư phạm TP HCM,SP Địa lý,"C04, D15, D10",90,29,90
+SPS,Đại học Sư phạm TP HCM,GD Chính trị,"C00, A01",80,18.5,80
+SPS,Đại học Sư phạm TP HCM,GD Chính trị,"C03, C04",80,18.5,80
+HQT,Học viện Ngoại giao Việt Nam,Quan hệ quốc tế,"D1, A1",90,24.25,90
+HQT,Học viện Ngoại giao Việt Nam,Quan hệ quốc tế,D3,90,24.25,90
+HQT,Học viện Ngoại giao Việt Nam,Kinh tế quốc tế,"A1, D1",90,24.25,90
+HQT,Học viện Ngoại giao Việt Nam,Kinh tế quốc tế,A00,90,25,90
+HQT,Học viện Ngoại giao Việt Nam,Luật quốc tế,"D1, A1",90,23.75,90
+HQT,Học viện Ngoại giao Việt Nam,Truyền thông quốc tế,"D1, A1",90,24.5,90
+HQT,Học viện Ngoại giao Việt Nam,Truyền thông quốc tế,D3,90,24.5,90
+HQT,Học viện Ngoại giao Việt Nam,Ngôn ngữ Anh,D1,90,32,90
+QSQ,Đại học Quốc tế - Đại học Quốc gia TP HCM,Công nghệ Sinh học,"A00, A01, B00",150,20.5,150
+QSQ,Đại học Quốc tế - Đại học Quốc gia TP HCM,Công nghệ thông tin,"A00, A01",100,20.75,100
+QSQ,Đại học Quốc tế - Đại học Quốc gia TP HCM,Công nghệ thực phẩm,"A00, A01, B00",75,20,75
+QSQ,Đại học Quốc tế - Đại học Quốc gia TP HCM,Hóa sinh,"A00, A01, B00",55,21,55
+QSQ,Đại học Quốc tế - Đại học Quốc gia TP HCM,"Kỹ thuật điện tử, truyền thông","A00, A01",55,19.25,55
+QSQ,Đại học Quốc tế - Đại học Quốc gia TP HCM,Kỹ thuật điều khiển & Tự động hóa,"A00, A01",45,19.75,45
+QSQ,Đại học Quốc tế - Đại học Quốc gia TP HCM,Kỹ thuật Hệ thống công nghiệp,"A00, A01, D01",75,20,75
+QSQ,Đại học Quốc tế - Đại học Quốc gia TP HCM,Kỹ thuật Xây dựng,"A00, A01",50,18,50
+QSQ,Đại học Quốc tế - Đại học Quốc gia TP HCM,Kỹ thuật Y sinh,"A00, A01, B00",75,22,75
+QSQ,Đại học Quốc tế - Đại học Quốc gia TP HCM,Logistics & Quản lý chuổi cung ứng,"A00, A01, D01",140,22.5,140
+QSQ,Đại học Quốc tế - Đại học Quốc gia TP HCM,Quản lý nguồn lợi thủy sản,"A00, A01, B00, D01",30,17.75,30
+QSQ,Đại học Quốc tế - Đại học Quốc gia TP HCM,Quản trị Kinh doanh,"A00, A01, D01",150,22.5,150
+QSQ,Đại học Quốc tế - Đại học Quốc gia TP HCM,Tài chính Ngân hàng,"A00, A01, D01",100,21.5,100
+QSQ,Đại học Quốc tế - Đại học Quốc gia TP HCM,Toán ứng dụng,"A00, A01",40,19,40
+DLX,Đại học Lao động - Xã hội,Kế toán,"A00, A01, D01",700,18,750
+DLX,Đại học Lao động - Xã hội,Công tác xã hội,C00,450,19.25,500
+DLX,Đại học Lao động - Xã hội,Công tác xã hội,"A00, A01, D01",450,18.25,500
+DLX,Đại học Lao động - Xã hội,Quản trị nhân lực,"A00, A01",680,16.25,750
+DLX,Đại học Lao động - Xã hội,Quản trị Kinh doanh,"A00, A01, D01",350,17,480
+DLX,Đại học Lao động - Xã hội,Bảo hiểm,"A00, A01, D01",320,15,320
+XDA,Đại học Xây dựng,Kiến trúc,V00,400,33.6,350
+XDA,Đại học Xây dựng,Quy hoạch vùng và đô thị,V00,100,23.07,100
+XDA,Đại học Xây dựng,Công nghệ Kỹ thuật Môi trường,A00,100,24.2,100
+XDA,Đại học Xây dựng,Công nghệ Kỹ thuật vật liệu xây dựng,A00,150,27.23,200
+NHF,Đại học Hà Nội,Công nghệ thông tin,D01,200,19,150
+NHF,Đại học Hà Nội,Kế toán,D01,100,28.5,100
+NHF,Đại học Hà Nội,Tài chính Ngân hàng,D01,100,28.5,100
+NHF,Đại học Hà Nội,Quản trị dịch vụ du lịch và lữ hành,D01,75,30.5,75
+NHF,Đại học Hà Nội,Quản trị kinh doanh,D01,100,29.25,100
+NHF,Đại học Hà Nội,Quốc tế học,D01,125,27.5,125
+NHF,Đại học Hà Nội,Ngôn ngữ Anh,D01,250,31.75,300
+NHF,Đại học Hà Nội,Ngôn ngữ Tây Ban Nha,D01,50,29,75
+NHF,Đại học Hà Nội,Ngôn ngữ Bồ Đào Nha,D01,50,26,50
+NHF,Đại học Hà Nội,Ngôn ngữ Italia,D01,100,25,100
+NHF,Đại học Hà Nội,Ngôn ngữ Nhật,"D01, D06",150,32.5,175
+NHF,Đại học Hà Nội,Ngôn ngữ Hàn Quốc,D01,100,32,125
+HTC,Học viện Tài chính,Ngôn ngữ Anh,D01,200,22.25,100
+HTC,Học viện Tài chính,Kế toán,"A00, A01",1300,24,600
+HTC,Học viện Tài chính,Kế toán,D01,1300,19.75,600
+HTC,Học viện Tài chính,Quản trị kinh doanh,"A00, A01,D01",240,23,120
+HTC,Học viện Tài chính,Kinh tế,"A00, A01,D01",240,17.25,120
+HTC,Học viện Tài chính,Tài chính Ngân hàng,"A00, A01, D01",1900,19.5,950
+HTC,Học viện Tài chính,hàng,D01,1900,17,950
+HTC,Học viện Tài chính,Hệ thống thông tin quản lý,"A00, A01, D01",120,17.5,60
+HTC,Học viện Tài chính,Hệ thống thông tin quản lý,D01,120,23,60
+MDA,Đại học Mỏ - Địa chất,Kỹ thuật dầu khí,A00,230,5.11,135
+MDA,Đại học Mỏ - Địa chất,Kỹ thuật dầu khí,A01,230,5.11,135
+MDA,Đại học Mỏ - Địa chất,Kỹ thuật địa vật lý,A00,60,5.11,40
+MDA,Đại học Mỏ - Địa chất,Kỹ thuật địa vật lý,A01,60,5.11,40
+MDA,Đại học Mỏ - Địa chất,Công nghệ kỹ thuật hóa học,A00,100,5.14,100
+MDA,Đại học Mỏ - Địa chất,Công nghệ kỹ thuật hóa học,A01,100,5.14,100
+MDA,Đại học Mỏ - Địa chất,Kỹ thuật địa chất,"A00, A01",350,5,200
+MDA,Đại học Mỏ - Địa chất,Kỹ thuật Trắc địa - Bản đồ,"A00, A01",300,5,290
+MDA,Đại học Mỏ - Địa chất,Quản lý đất đai,"A00, A01,D01, B00",100,5.21,290
+MDA,Đại học Mỏ - Địa chất,Kỹ thuật mỏ,"A00, A01",220,5.02,150
+MDA,Đại học Mỏ - Địa chất,Kỹ thuật tuyển khoáng,"A00, A01",160,5.02,80
+MDA,Đại học Mỏ - Địa chất,Công nghệ thông tin,"A00, A01",480,5.32,500
+MDA,Đại học Mỏ - Địa chất,Kỹ thuật điều khiển và tự động hóa,"A00, A01",180,5.82,180
+MDA,Đại học Mỏ - Địa chất,Kỹ thuật cơ khí,A00,190,5.22,300
+MDA,Đại học Mỏ - Địa chất,Kỹ thuật cơ khí,A01,190,5.22,300
+MDA,Đại học Mỏ - Địa chất,Kỹ thuật công trình xây dựng,"A00, A01",350,5.02,280
+MDA,Đại học Mỏ - Địa chất,Kỹ thuật môi trường,"A00, A01,B00",250,5,180
+MDA,Đại học Mỏ - Địa chất,Quản trị kinh doanh,"A00, A01,D01",210,5.46,250
+MDA,Đại học Mỏ - Địa chất,Kế toán,A00,260,5.69,450
+MDA,Đại học Mỏ - Địa chất,Kế toán,A01,260,5.69,450
+MDA,Đại học Mỏ - Địa chất,Kế toán,D01,260,5.69,450
+MDA,Đại học Mỏ - Địa chất,"Kỹ thuật điện, điện tử","A00, A01",240,5.82,300
+MDA,Đại học Mỏ - Địa chất,Kỹ thuật mỏ,"A00, A01",40,5,40
+MDA,Đại học Mỏ - Địa chất,Quản trị kinh doanh,"A00, A01,D01",40,5,40
+MDA,Đại học Mỏ - Địa chất,Kế toán,"A00, A01,D01",40,5,40
+MDA,Đại học Mỏ - Địa chất,Kỹ thuật dầu khí,"A00, A01",50,5.04,40
+KHA,Đại học Kinh tế quốc dân,Thống kê kinh tế,"A00, A01, D01, B00",120,21.45,140
+KHA,Đại học Kinh tế quốc dân,Toán ứng dụng trong kinh tê,"A00, A01, D01, B00",120,20.64,140
+KHA,Đại học Kinh tế quốc dân,Kinh tế tài nguyên,"A00, A01, D01, B00",70,21,80
+KHA,Đại học Kinh tế quốc dân,Các chương trình định hướng ứng dụng,"D01, A01",350,26.16,350
+KHA,Đại học Kinh tế quốc dân,Ngôn ngữ Anh,D01,120,28.76,140
+KHA,Đại học Kinh tế quốc dân,Kinh tế,"A00, A01, D01, B00",750,23.46,720
+KHA,Đại học Kinh tế quốc dân,Kinh tế quốc tế,"A00, A01, D01, B00",120,25.44,70
+KHA,Đại học Kinh tế quốc dân,Quản trị kinh doanh,"A00, A01, D01, B00",330,24.06,340
+KHA,Đại học Kinh tế quốc dân,Quản trị dịch vụ du lịch và lữ hành,"A00, A01, D01, B00",120,23.1,120
+KHA,Đại học Kinh tế quốc dân,Quản trị khách sạn,"A00, A01, D01, B00",70,23.34,70
+KHA,Đại học Kinh tế quốc dân,Marketing,"A00, A01, D01, B00",200,24.09,200
+KHA,Đại học Kinh tế quốc dân,Bất động sản,"A00, A01, D01, B00",130,22.05,140
+KHA,Đại học Kinh tế quốc dân,Kinh doanh quốc tế,"A00, A01, D01, B00",140,24.81,140
+KHA,Đại học Kinh tế quốc dân,Kinh doanh thương mại,"A00, A01, D01, B00",170,23.76,170
+KHA,Đại học Kinh tế quốc dân,Tài chính - Ngân hàng,"A00, A01, D01, B00",520,24.03,480
+KHA,Đại học Kinh tế quốc dân,Bảo hiểm,"A00, A01, D01, B00",140,21.75,150
+KHA,Đại học Kinh tế quốc dân,Kế toán,"A00, A01, D01, B00",400,25.5,400
+KHA,Đại học Kinh tế quốc dân,Quản trị nhân lực,"A00, A01, D01, B00",120,23.31,80
+KHA,Đại học Kinh tế quốc dân,Hệ thống thông tin quản lý,"A00, A01, D01, B00",120,22.35,130
+KHA,Đại học Kinh tế quốc dân,Luật,"A00, A01, D01, B00",120,22.92,120
+YHB,Đại học Y Hà Nội,Khúc xạ Nhãn khoa,B00,50,24.5,50
+YHB,Đại học Y Hà Nội,Y đa khoa,B00,500,27,500
+YHB,Đại học Y Hà Nội,Y học Cổ truyền,B00,50,25.5,50
+YHB,Đại học Y Hà Nội,Y tế công cộng,B00,30,23.25,30
+YHB,Đại học Y Hà Nội,Y học Dự phòng,B00,100,24,100
+YHB,Đại học Y Hà Nội,Dinh Dưỡng,B00,50,23.5,50
+YHB,Đại học Y Hà Nội,Xét nghiệm y học,B00,50,24.75,50
+YHB,Đại học Y Hà Nội,Điều dưỡng,B00,90,24,90
+YHB,Đại học Y Hà Nội,Răng Hàm Mặt,B00,80,26.75,80
+YTB,Đại học Y Dược Thái Bình,Y đa khoa,B00,580,25.25,600
+YTB,Đại học Y Dược Thái Bình,Dược học,B00,120,24.25,120
+YTB,Đại học Y Dược Thái Bình,Y học cổ truyền,B00,60,23.75,60
+YTB,Đại học Y Dược Thái Bình,Y học dự phòng,B00,60,23.25,60
+YTB,Đại học Y Dược Thái Bình,Điều dưỡng,B00,120,22.5,110
+YTB,Đại học Y Dược Thái Bình,Y tế công cộng,B00,60,21.25,60
+DCN,Đại học Công nghiệp Hà Nội,Công nghệ kỹ thuật cơ khí,"A00, A01",450,21.4,520
+DCN,Đại học Công nghiệp Hà Nội,Công nghệ kỹ thuật cơ điện tử,"A00, A01",210,23,210
+DCN,Đại học Công nghiệp Hà Nội,Công nghệ kỹ thuật ô tô,"A00, A01",360,21.3,420
+DCN,Đại học Công nghiệp Hà Nội,"Công nghệ kỹ thuật điện, điện tử","A00, A01",450,21.55,510
+DCN,Đại học Công nghiệp Hà Nội,Khoa học máy tính,"A00, A01",140,19.9,120
+DCN,Đại học Công nghiệp Hà Nội,Kế toán,"A00, A01, D01",720,20.3,780
+DCN,Đại học Công nghiệp Hà Nội,Công nghệ kỹ thuật nhiệt,"A00, A01",160,20.1,140
+NTH,Đại học Ngoại thương,Ngôn ngữ Anh,D01,170,33.03,170
+NTH,Đại học Ngoại thương,Ngôn ngữ Pháp,D03,60,31.77,60
+NTH,Đại học Ngoại thương,Ngôn ngữ Trung,D01,60,32.31,60
+NTH,Đại học Ngoại thương,Ngôn ngữ Trung,D04,60,29.31,60
+NTH,Đại học Ngoại thương,Ngôn ngữ Nhật,D01,90,32.46,90
+NTH,Đại học Ngoại thương,Ngôn ngữ Nhật,D06,90,29.46,90
+NTH,Đại học Ngoại thương,Kinh tế,A00,890,26.45,840
+NTH,Đại học Ngoại thương,Kinh tế,A01,890,24.95,840
+NTH,Đại học Ngoại thương,Kinh tế,D01,890,24.95,840
+NTH,Đại học Ngoại thương,Kinh tế,D02,890,23.45,840
+NTH,Đại học Ngoại thương,Kinh tế,D03,890,24.95,840
+NTH,Đại học Ngoại thương,Kinh tế,D04,890,24.95,840
+NTH,Đại học Ngoại thương,Kinh tế,D06,890,24.95,840
+NTH,Đại học Ngoại thương,Kinh tế quốc tế,A00,340,26.45,340
+NTH,Đại học Ngoại thương,Kinh tế quốc tế,A01,340,24.95,340
+NTH,Đại học Ngoại thương,Kinh tế quốc tế,D01,340,24.95,340
+NTH,Đại học Ngoại thương,Kinh tế quốc tế,D03,340,24.95,340
+NTH,Đại học Ngoại thương,Quản trị kinh doanh,A00,390,26.35,340
+NTH,Đại học Ngoại thương,Quản trị kinh doanh,A01,390,24.83,340
+NTH,Đại học Ngoại thương,Quản trị kinh doanh,D01,390,24.85,340
+NTH,Đại học Ngoại thương,Kinh doanh quốc tế,A00,140,26.35,140
+NTH,Đại học Ngoại thương,Kinh doanh quốc tế,A01,140,24.83,140
+NTH,Đại học Ngoại thương,Kinh doanh quốc tế,D01,140,24.85,140
+NTH,Đại học Ngoại thương,Tài chính - Ngânhàng,A00,340,25.8,340
+NTH,Đại học Ngoại thương,Tài chính - Ngânhàng,A01,340,24.3,340
+NTH,Đại học Ngoại thương,Tài chính - Ngânhàng,D01,340,24.3,340
+NTH,Đại học Ngoại thương,Luật,A00,120,26.45,120
+NTH,Đại học Ngoại thương,Luật,A01,120,24.95,120
+NTH,Đại học Ngoại thương,Luật,D01,120,24.95,120
+NTS,Đại học Ngoại thương,Kinh tế,A00,500,26.5,500
+NTS,Đại học Ngoại thương,Kinh tế,A01,500,25,500
+NTS,Đại học Ngoại thương,Kinh tế,D01,500,25,500
+NTS,Đại học Ngoại thương,Kinh tế,D06,500,25,500
+NTS,Đại học Ngoại thương,Quản trị kinh doanh,A00,250,26,150
+NTS,Đại học Ngoại thương,Quản trị kinh doanh,A01,250,24.5,150
+NTS,Đại học Ngoại thương,Quản trị kinh doanh,D01,250,24.5,150
+NTS,Đại học Ngoại thương,hàng,A00,150,25.75,150
+NTS,Đại học Ngoại thương,hàng,A01,150,24.25,150
+NTS,Đại học Ngoại thương,hàng,D01,150,24.25,150
+NTH,Đại học Ngoại thương,Quản trị kinh doanh,A00,120,18,70
+NTH,Đại học Ngoại thương,Quản trị kinh doanh,A01,120,18,70
+NTH,Đại học Ngoại thương,Quản trị kinh doanh,D01,120,18,70
+NTH,Đại học Ngoại thương,Kinh doanh quốc tế,A00,80,18,80
+NTH,Đại học Ngoại thương,Kinh doanh quốc tế,A01,80,18,80
+NTH,Đại học Ngoại thương,Kinh doanh quốc tế,D01,80,18,80
+TLA,Đại học Thủy lợi,Cấp thoát nước,"A00, A01",120,5.67,190
+TLA,Đại học Thủy lợi,Kinh tế,"A00, A01",100,6.43,130
+TLA,Đại học Thủy lợi,Quản trị kinh doanh,"A00, A01",120,6.47,140
+TLA,Đại học Thủy lợi,Kế toán,"A00, A01",210,6.72,210
+TLA,Đại học Thủy lợi,Thủy văn,"A00, A01",70,5.68,210
+TLA,Đại học Thủy lợi,Công nghệ thông tin,"A00, A01",210,6.72,400
+TLA,Đại học Thủy lợi,Công nghệ kỹ thuật xây dựng,"A00, A01",120,5.67,920
+TLA,Đại học Thủy lợi,Kỹ thuật cơ khí,"A00, A01",210,6.32,320
+TLA,Đại học Thủy lợi,Kỹ thuật công trình xây dựng,"A00, A01",290,6.02,920
+TLA,Đại học Thủy lợi,Kỹ thuật công trình thủy,"A00, A01",300,5.71,920
+TLA,Đại học Thủy lợi,Kỹ thuật công trình biển,"A00, A01",70,5.72,920
+TLA,Đại học Thủy lợi,Kỹ thuật xây dựng công trình giao thông,"A00, A01",190,5.67,920
+TLA,Đại học Thủy lợi,Kỹ thuật cơ sở hạ tầng,"A00, A01",70,5.9,190
+TLA,Đại học Thủy lợi,Kỹ thuật tài nguyên nước,"A00, A01",210,5.67,210
+TLA,Đại học Thủy lợi,Quản lý xây dựng,"A00, A01",140,5.87,920
+TLA,Đại học Thủy lợi,Chương trình tiên tiến ngành Kỹ thuật xây dựng,"A00, A01",100,5.39,60
+TLA,Đại học Thủy lợi,Chương trình tiên tiến ngành Kỹ thuật tài nguyên nước,"A00, A01",50,5.33,60
+TLS,Đại học Thủy lợi,Cấp thoát nước,"A00, A01",70,15,100
+TLS,Đại học Thủy lợi,Công nghệ kỹ thuật xây dựng,"A00, A01",70,16,280
+TLS,Đại học Thủy lợi,Kỹ thuật công trình xây dựng,"A00, A01",140,15,280
+TLS,Đại học Thủy lợi,Kỹ thuật công trình thủy,"A00, A01",140,15,280
+TLS,Đại học Thủy lợi,Kỹ thuật xây dựng công trình giao thông,"A00, A01",90,15,280
+TLS,Đại học Thủy lợi,Kỹ thuật tài nguyên nước,"A00, A01",70,15,100
+TMA,Đại học Thương mại,Kinh tế,A00,300,23,300
+TMA,Đại học Thương mại,Kinh tế,A01,300,21.5,300
+TMA,Đại học Thương mại,Quản trị dịch vụ du lịch và lữ hành,D01,200,20.75,200
+TMA,Đại học Thương mại,Quản trị khách sạn,D01,200,21,200
+TMA,Đại học Thương mại,Marketing (Marketing thương mại),A00,450,23,250
+TMA,Đại học Thương mại,Marketing (Marketing thương mại),D01,450,22,250
+TMA,Đại học Thương mại,Marketing (Quản trị thương hiệu),A00,450,22.25,200
+TMA,Đại học Thương mại,Marketing (Quản trị thương hiệu),D01,450,21.5,200
+TMA,Đại học Thương mại,Kinh doanh quốc tế,D01,300,21.25,200
+TMA,Đại học Thương mại,Thương mại điện tử,A00,200,23,200
+TMA,Đại học Thương mại,Thương mại điện tử,A01,200,21.25,200
+TMA,Đại học Thương mại,Tài chính - Ngân hàng,A00,300,22.5,350
+TMA,Đại học Thương mại,Tài chính - Ngân hàng,D01,300,21,350
+TMA,Đại học Thương mại,Kế toán,A00,300,23.5,350
+TMA,Đại học Thương mại,Kế toán,A01,300,21.5,350
+LPS,Đại học Luật TP Hồ Chí Minh,Quản trị kinh doanh,A00,100,21,100
+LPS,Đại học Luật TP Hồ Chí Minh,Quản trị kinh doanh,A01,100,20.5,100
+LPS,Đại học Luật TP Hồ Chí Minh,Quản trị kinh doanh,D01,100,20.3,100
+LPS,Đại học Luật TP Hồ Chí Minh,Ngôn ngữ Anh,D01,50,21,50
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Văn học,C00,100,22.25,100
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Văn học,D01,100,20.62,100
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Văn học,D14,100,20.81,100
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Ngôn ngữ học,C00,100,22.25,100
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Ngôn ngữ học,D01,100,20.58,100
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Ngôn ngữ học,D14,100,20.7,100
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Báo chí,C00,130,25,130
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Báo chí,D01,130,22.25,130
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Báo chí,D14,130,22.25,130
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Lịch sử,C00,130,17.5,120
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Lịch sử,D01,130,16.5,120
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Lịch sử,D14,130,17.75,120
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Nhân học,C00,60,18.75,60
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Nhân học,D01,60,17.75,60
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Nhân học,D14,60,17.75,60
+QSX,Đại học Khoa học Xã hội và Nhân văn TP Hồ Chí Minh,Ngôn ngữ Italia,D03,50,17.42,50
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Sư phạm kỹ thuật công nghiệp,"A00, A01",45,19.25,45
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Công nghệ sinh học,"A00, D07",65,22,65
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Công nghệ thông tin,"A00, A01",170,23.75,185
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Công nghệ kỹ thuật vật liệu xây dựng,"A00, A01",60,20.25,60
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Công nghệ chế tạo máy,"A00, A01",120,22.25,130
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Quản lý công nghiệp,"A00, A01",60,21.25,70
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Kỹ thuật cơ khí,"A00, A01",120,22.5,140
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Kỹ thuật cơ điện tử,"A00, A01",120,23.25,140
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Kỹ thuật nhiệt,"A00, A01",110,21.5,150
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Kỹ thuật tàu thủy,"A00, A01",50,19.75,60
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,"Kỹ thuật điện, điện tử","A00, A01",125,23,170
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,"Kỹ thuật điện, điện tử (CLC)","A00, A01",45,21.5,90
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Kỹ thuật hóa học,"A00, D07",70,20.5,80
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Kỹ thuật môi trường,"A00, D07",70,20.25,80
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Kỹ thuật dầu khí,"A00, D07",80,20.25,80
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Công nghệ thực phẩm,"A00, D07",80,22.75,85
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Kiến trúc,V01,120,18.5,90
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Kỹ thuật công trình xây dựng,"A00, A01",200,21.25,215
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Kỹ thuật công trình thủy,"A00, A01",65,19.5,110
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Kinh tế xây dựng,"A00, A01",110,20,120
+DDK,Đại học Bách khoa - ĐH Đà Nẵng,Quản lý tài nguyên và môi trường,"A00, D07",60,19.5,65
+DDQ,Đại học Kinh tế - ĐH Đà Nẵng,Quản trị dịch vụ du lịch và lữ hành,"A00, A01, D01",240,20,195
+DDQ,Đại học Kinh tế - ĐH Đà Nẵng,Quản trị khách sạn,"A00, A01, D01",130,21,100
+DDQ,Đại học Kinh tế - ĐH Đà Nẵng,Marketing,"A00, A01, D01",160,20.75,130
+DDQ,Đại học Kinh tế - ĐH Đà Nẵng,Kinh doanh thương mại,"A00, A01, D01",150,19,125
+DDQ,Đại học Kinh tế - ĐH Đà Nẵng,Tài chính - Ngân hàng,"A00, A01, D01",360,18.25,295
+DDQ,Đại học Kinh tế - ĐH Đà Nẵng,Kế Toán,"A00, A01, D01",320,20.75,270
+DDQ,Đại học Kinh tế - ĐH Đà Nẵng,Kiểm toán,"A00, A01, D01",200,19.75,165
+DDQ,Đại học Kinh tế - ĐH Đà Nẵng,Quản trị nhân lực,"A00, A01, D01",100,20,80
+DDQ,Đại học Kinh tế - ĐH Đà Nẵng,Hệ thống thông tin quản lý,"A00, A01, D01",210,19.25,170
+DDQ,Đại học Kinh tế - ĐH Đà Nẵng,Luật,"A00, A01, D01",90,20.5,75
+DDQ,Đại học Kinh tế - ĐH Đà Nẵng,Luật kinh tế,"A00, A01, D01",150,21.25,125
+DDQ,Đại học Kinh tế - ĐH Đà Nẵng,Thống kê,"A00, A01, D01",60,19.5,50
+DDS,Đại học Sư phạm - ĐH Đà Nẵng,Sư phạm Hóa học,A00,45,20.75,45
+DDS,Đại học Sư phạm - ĐH Đà Nẵng,Sư phạm Sinh học,B00,45,20.25,45
+DDS,Đại học Sư phạm - ĐH Đà Nẵng,Sư phạm Ngữ văn,C00,45,18.5,45
+DDS,Đại học Sư phạm - ĐH Đà Nẵng,Sư phạm Lịch sử,C00,45,16,45
+DDS,Đại học Sư phạm - ĐH Đà Nẵng,Sư phạm Địa lý,C00,45,16.75,45
+DDS,Đại học Sư phạm - ĐH Đà Nẵng,Việt Nam học,"C00, D01",80,17,90
+DDS,Đại học Sư phạm - ĐH Đà Nẵng,Lịch sử,"C00, D01",70,16,90
+DDS,Đại học Sư phạm - ĐH Đà Nẵng,Văn học,"C00, D01",110,16,180
+DDS,Đại học Sư phạm - ĐH Đà Nẵng,Văn hóa học,"C00, D01",70,16,90
+DDS,Đại học Sư phạm - ĐH Đà Nẵng,Tâm lý học,"B00, C00",70,17,90
+DDS,Đại học Sư phạm - ĐH Đà Nẵng,Địa lý học,"C00, D01",70,16,90
+DDS,Đại học Sư phạm - ĐH Đà Nẵng,Báo chí,"C00, D01",140,18.5,180
+DDS,Đại học Sư phạm - ĐH Đà Nẵng,Công tác xã hội,"C00, D01",70,16,90
+DDS,Đại học Sư phạm - ĐH Đà Nẵng,Quản lý tài nguyên và môi trường,B00,70,16,90
+DDF,Đại học Ngoại ngữ - ĐH Đà Nẵng,Sư phạm tiếng Anh,D01,105,28.75,105
+DDF,Đại học Ngoại ngữ - ĐH Đà Nẵng,Sư phạm tiếng Pháp,"D01, D03",35,18.25,35
+DDF,Đại học Ngoại ngữ - ĐH Đà Nẵng,Sư phạm tiếng Trung Quốc,"D01, D04",35,21,35
+DDF,Đại học Ngoại ngữ - ĐH Đà Nẵng,Ngôn ngữ Anh,D01,765,24.25,744
+DDF,Đại học Ngoại ngữ - ĐH Đà Nẵng,Ngôn ngữ Nga,"D01, D02",70,20.25,70
+DDF,Đại học Ngoại ngữ - ĐH Đà Nẵng,Ngôn ngữ Nga,A01,70,20.25,70
+DDF,Đại học Ngoại ngữ - ĐH Đà Nẵng,Ngôn ngữ Pháp,"D01, D03",70,21.25,70
+DDF,Đại học Ngoại ngữ - ĐH Đà Nẵng,Ngôn ngữ Trung Quốc,"D01, D04",140,24,140
+DDF,Đại học Ngoại ngữ - ĐH Đà Nẵng,Ngôn ngữ Nhật,"D01, D06",105,28,105
+DDF,Đại học Ngoại ngữ - ĐH Đà Nẵng,Ngôn ngữ Hàn Quốc,D01,105,26.5,105
+DDF,Đại học Ngoại ngữ - ĐH Đà Nẵng,Quốc tế học,"A01, D01",140,23.5,100
+DDF,Đại học Ngoại ngữ - ĐH Đà Nẵng,Đông phương học,"A01, D01",90,23,80
+DDC,Trường cao đẳng Công nghệ - ĐH Đà Nẵng,Hệ thống thông tin quản lý,"A00, A01, D01",80,11,80
+DDC,Trường cao đẳng Công nghệ - ĐH Đà Nẵng,Công nghệ sinh học,"A00, B00, D07, D08",70,12.5,70
+DDC,Trường cao đẳng Công nghệ - ĐH Đà Nẵng,Công nghệ thông tin,"A00, A01, D01",250,12.5,280
+DDC,Trường cao đẳng Công nghệ - ĐH Đà Nẵng,Công nghệ kỹ thuật kiến trúc,"A00, A01, C01, V01",70,10.75,70
+DDY,Khoa Y Dược - Đại học Đà Nẵng,Điều dưỡng,B00,150,20.75,100
+DDY,Khoa Y Dược - Đại học Đà Nẵng,Y đa khoa,B00,70,24,150
+TDL,Đại học Đà Lạt,Toán học,"A00, A01",140,15,80
+TDL,Đại học Đà Lạt,Sư phạm Toán học,"A00, A01",20,22,30
+TDL,Đại học Đà Lạt,Công nghệ thông tin,"A00, A01",240,15,300
+TDL,Đại học Đà Lạt,Vật lý học,"A00, A01",60,15,80
+TDL,Đại học Đà Lạt,Sư phạm Vật lý,"A00, A01",20,18,30
+TDL,Đại học Đà Lạt,"Công nghệ kỹ thuật điện tử, truyền thông","A00, A01",150,15,100
+TDL,Đại học Đà Lạt,Kỹ thuật hạt nhân,"A00, A01",40,22.5,40
+TDL,Đại học Đà Lạt,Hóa học,A00,60,15,80
+TDL,Đại học Đà Lạt,Sư phạm Hóa học,A00,20,20,30
+TDL,Đại học Đà Lạt,Sinh học,B00,50,15,100
+TDL,Đại học Đà Lạt,Sư phạm Sinh học,B00,20,18,30
+TDL,Đại học Đà Lạt,Khoa học môi trường,"A00, B00",60,15,80
+TDL,Đại học Đà Lạt,Nông học,B00,150,15,100
+TDL,Đại học Đà Lạt,Công nghệ sinh học,"A00, B00",115,15,365
+TDL,Đại học Đà Lạt,Công nghệ sau thu hoạch,"A00, B00",150,15,125
+TDL,Đại học Đà Lạt,Quản trị kinh doanh,"A00, A01,D001",80,15,200
+TDL,Đại học Đà Lạt,Kế toán,"A00, A01",60,15,100
+TDL,Đại học Đà Lạt,Luật,"C00, D01",210,18,300
+TDL,Đại học Đà Lạt,Xã hội học,"C00, D01",30,15,30
+TDL,Đại học Đà Lạt,Văn hóa học,"C00, D01",30,15,30
+HBT,Học viện Báo chí và Tuyên truyền,Triết học Mác - Lênin,C04,50,19,40
+HBT,Học viện Báo chí và Tuyên truyền,Triết học Mác - Lênin,D01,50,17.5,40
+HBT,Học viện Báo chí và Tuyên truyền,Quản lý kinh tế,D01,50,21.25,40
+HBT,Học viện Báo chí và Tuyên truyền,Quản lý hoạt động tư tưởng - văn hóa,C04,110,20,50
+HBT,Học viện Báo chí và Tuyên truyền,Quản lý hoạt động tư tưởng - văn hóa,D01,110,18.5,50
+HBT,Học viện Báo chí và Tuyên truyền,Chính trị phát triển,C03,55,19,50
+HBT,Học viện Báo chí và Tuyên truyền,Quản lý xã hội,C04,55,21,50
+HBT,Học viện Báo chí và Tuyên truyền,Quản lý xã hội,D01,55,20.5,50
+HBT,Học viện Báo chí và Tuyên truyền,Quản lý xã hội,C03,55,20.25,50
+HBT,Học viện Báo chí và Tuyên truyền,Tư tưởng Hồ Chí Minh,C04,55,18.5,40
+HBT,Học viện Báo chí và Tuyên truyền,Tư tưởng Hồ Chí Minh,D01,55,17.5,40
+HBT,Học viện Báo chí và Tuyên truyền,Tư tưởng Hồ Chí Minh,C03,55,17.5,40
+HBT,Học viện Báo chí và Tuyên truyền,Văn hóa phát triển,C04,50,20.5,45
+HBT,Học viện Báo chí và Tuyên truyền,Văn hóa phát triển,D01,50,19.5,45
+HBT,Học viện Báo chí và Tuyên truyền,Văn hóa phát triển,C03,50,19.5,45
+HBT,Học viện Báo chí và Tuyên truyền,Chính sách công,C04,55,19.75,50
+HBT,Học viện Báo chí và Tuyên truyền,Chính sách công,D01,55,19,50
+HBT,Học viện Báo chí và Tuyên truyền,Chính sách công,C03,55,19,50
+HBT,Học viện Báo chí và Tuyên truyền,Xuất bản,C03,50,22,50
+HBT,Học viện Báo chí và Tuyên truyền,Xã hội học,C04,50,22,50
+HBT,Học viện Báo chí và Tuyên truyền,Xã hội học,D01,50,20.75,50
+HBT,Học viện Báo chí và Tuyên truyền,Xã hội học,C03,50,20.5,50
+HBT,Học viện Báo chí và Tuyên truyền,Công tác xã hội,C04,50,22,50
+HBT,Học viện Báo chí và Tuyên truyền,Công tác xã hội,D01,50,22,50
+HBT,Học viện Báo chí và Tuyên truyền,Công tác xã hội,C03,50,21.5,50
+HBT,Học viện Báo chí và Tuyên truyền,Thông tin đối ngoại,D15,100,29.5,100
+HBT,Học viện Báo chí và Tuyên truyền,Thông tin đối ngoại,D01,100,29.25,100
+HBT,Học viện Báo chí và Tuyên truyền,Thông tin đối ngoại,D14,100,29.25,100
+HBT,Học viện Báo chí và Tuyên truyền,Quan hệ chính trị và truyền thông quốc tế,D15,100,29.5,100
+HBT,Học viện Báo chí và Tuyên truyền,Quan hệ chính trị và truyền thông quốc tế,D01,100,29.25,100
+HBT,Học viện Báo chí và Tuyên truyền,Quảng cáo,D14,40,28.5,40
+HBT,Học viện Báo chí và Tuyên truyền,Ngôn ngữ Anh,D15,40,29,40
+HBT,Học viện Báo chí và Tuyên truyền,Ngôn ngữ Anh,D01,40,29.5,40
+BKA,Đại học Bách khoa Hà Nội,Kỹ thuật in và truyền thông,"A00, B00, D07",50,7.72,50
+BKA,Đại học Bách khoa Hà Nội,Sư phạm kỹ thuật công nghiệp,"A00, A01",50,7.11,50
+BKA,Đại học Bách khoa Hà Nội,Vật lý kỹ thuật,"A00, A01",120,7.62,160
+BKA,Đại học Bách khoa Hà Nội,Kỹ thuật hạt nhân,"A00, A01",100,7.75,160
+BKA,Đại học Bách khoa Hà Nội,Tiếng Anh KHKT và công nghệ,D01,200,7.48,140
+BKA,Đại học Bách khoa Hà Nội,Tiếng Anh chuyên nghiệp quốc tế,D01,200,7.29,60
+GNT,Đại học Sư phạm Nghệ thuật Trung ương,ĐHSP Âm nhạc,N,225,15,200
+GNT,Đại học Sư phạm Nghệ thuật Trung ương,ĐHSP Âm nhạc Mầm non,N,225,15,200
+GNT,Đại học Sư phạm Nghệ thuật Trung ương,ĐHSP Mỹ thuật,H,225,15,200
+GNT,Đại học Sư phạm Nghệ thuật Trung ương,ĐHSP Mỹ thuật mầm non,H,225,15,200
+GNT,Đại học Sư phạm Nghệ thuật Trung ương,ĐH Quản lý văn hóa,H,70,15,150
+GNT,Đại học Sư phạm Nghệ thuật Trung ương,ĐH quản lý văn hóa,H,70,15,150
+GNT,Đại học Sư phạm Nghệ thuật Trung ương,ĐH Thiết kế Thời trang,H,260,15,200
+GNT,Đại học Sư phạm Nghệ thuật Trung ương,ĐH Thiết kế Đồ họa,H,320,15,250
+GNT,Đại học Sư phạm Nghệ thuật Trung ương,ĐH Hội họa,H,30,15,30
+GTS,Đại học Giao thông Vận tải,Điều khiển tàu biển,"A00, A01",80,17,100
+GTS,Đại học Giao thông Vận tải,Vận hành khai thác máy tàu thủy,"A00, A01",70,17,80
+GTS,Đại học Giao thông Vận tải,Thiết bị năng lượng tàu thủy,"A00, A01",50,17,60
+GTS,Đại học Giao thông Vận tải,Quản lý hàng hải,"A00, A01",50,16,50
+GTS,Đại học Giao thông Vận tải,Kỹ thuật Điện - Điện tử,"A00, A01",100,19,140
+GTS,Đại học Giao thông Vận tải,Kỹ thuật Điện tử - Truyền thông,"A00, A01",110,17,80
+GTS,Đại học Giao thông Vận tải,Khai thác vận tải,"A00, A01, D01",100,21.5,100
+GTS,Đại học Giao thông Vận tải,Kỹ thuật môi trường,"A00, A01, B00",50,16,50
+KSA,Đại học Kinh tế TP.Hồ Chí Minh,Ngôn ngữ Anh,D01,100,28,100
+HDT,Đại học Hồng Đức,Kỹ thuật công trình xây dựng,"A00, A01",60,15,50
+HDT,Đại học Hồng Đức,Công nghệ kỹ thuật môi trường,"A00, A01, B00",60,15,40
+HDT,Đại học Hồng Đức,"Kỹ thuật điện, điện tử","A00, A01",60,15,40
+HDT,Đại học Hồng Đức,Công nghệ thông tin,"A00, A01",60,15,60
+HDT,Đại học Hồng Đức,Nông học,"A00, A01,B00",50,15,50
+HDT,Đại học Hồng Đức,Chăn nuôi,"A00, A01,B00",50,15,50
+HDT,Đại học Hồng Đức,Nuôi trồng thủy sản,"A00, A01,B00",50,15,50
+HDT,Đại học Hồng Đức,Bảo vệ thực vật,"A00, A01,B00",50,15,50
+HDT,Đại học Hồng Đức,Lâm nghiệp,"A00, A01,B00",50,15,50
+HDT,Đại học Hồng Đức,Kinh doanh nông nghiệp,"A00, A01, B00",50,15,50
+HDT,Đại học Hồng Đức,Kế toán,"A00, C01,D01",130,17,150
+HDT,Đại học Hồng Đức,Quản trị kinh doanh,"A00, C01,D01",60,15,80
+HDT,Đại học Hồng Đức,Tài chính - Ngân hàng,"A00, C01, D01",50,15,50
+HDT,Đại học Hồng Đức,Địa lý học,"A00, A01,C00, D01",50,15,50
+HDT,Đại học Hồng Đức,Xã hội học,"A00, A01,C00, D01",50,15,50
+HDT,Đại học Hồng Đức,Việt Nam học,"A00, A01,C00, D01",50,15,50
+HDT,Đại học Hồng Đức,Tâm lý học,"A00, B00,C00, D01",50,15,50
+LNH,Đại học Lâm Nghiệp Việt Nam,Quản lý đất đai,"A00, A01, D01, B00",150,15,120
+LNH,Đại học Lâm Nghiệp Việt Nam,Kế toán,"A00, A01, D01",105,15,300
+LNH,Đại học Lâm Nghiệp Việt Nam,Quản trị kinh doanh,"A00, A01, D01",100,15,150
+LNH,Đại học Lâm Nghiệp Việt Nam,Kinh tế,"A00, A01, D01",30,15,60
+LNH,Đại học Lâm Nghiệp Việt Nam,Kinh tế Nông nghiệp,"A00, A01, D01",50,15,50
+LNH,Đại học Lâm Nghiệp Việt Nam,Quản lý tài nguyên rừng,"A00, A01, D01, B00",200,15,300
+LNH,Đại học Lâm Nghiệp Việt Nam,Lâm sinh,"A00, A01, D01, B00",155,15,100
+LNH,Đại học Lâm Nghiệp Việt Nam,Lâm nghiệp,"A00, A01, D01, B00",100,15,50
+LNH,Đại học Lâm Nghiệp Việt Nam,Khuyến nông,"A00, A01, D01, B00",50,16,50
+LNH,Đại học Lâm Nghiệp Việt Nam,Thiết kế công nghiệp,"A00, A01, D01",20,15,50
+LNH,Đại học Lâm Nghiệp Việt Nam,Thiết kế nội thất,"A00, A01, D01",20,15,50
+VHS,Trường Đại học Văn hóa TP.HCM,Văn hóa học,"C00, D01",110,18.5,100
+TCT,Đại học Cần Thơ,Giáo dục Tiểu học,"A00, D01",50,20.25,40
+TCT,Đại học Cần Thơ,Giáo dục công dân,C00,50,18,40
+TCT,Đại học Cần Thơ,Giáo dục Thể chất,T00,50,15,40
+TCT,Đại học Cần Thơ,Sư phạm Toán học,"A00, A01",50,22.25,40
+TCT,Đại học Cần Thơ,Sư phạm Tin học,"A00, A01",50,15,40
+TCT,Đại học Cần Thơ,Sư phạm Vật lý,"A00, A01",50,20.75,40
+TCT,Đại học Cần Thơ,Sư phạm Hóa học,"A00,, B00",50,21.25,40
+TCT,Đại học Cần Thơ,Sư phạm Sinh học,B00,50,19.5,40
+TCT,Đại học Cần Thơ,Sư phạm Ngữ văn,C00,50,21.25,40
+TCT,Đại học Cần Thơ,Sư phạm Lịch sử,C00,50,19.25,40
+TCT,Đại học Cần Thơ,Sư phạm Địa lí,C00,40,20.5,40
+TCT,Đại học Cần Thơ,Sư phạm tiếng Anh,D01,50,21,40
+TCT,Đại học Cần Thơ,Luật,"A00, C00,D01, D03",260,23,300
+TCT,Đại học Cần Thơ,Sinh học,B00,110,18,110
+TCT,Đại học Cần Thơ,Kỹ thuật môi trường,"A00, B00",120,18.25,130
+TCT,Đại học Cần Thơ,Vật lý kỹ thuật,"A00, A01",50,17.5,50
+TCT,Đại học Cần Thơ,Công nghệ thực phẩm,A00,170,18,170
+TCT,Đại học Cần Thơ,Công nghệ sau thu hoạch,"A00, B00",80,15,80
+TCT,Đại học Cần Thơ,Cồng nghệ chế biến thủy sản,A00,110,15,120
+TCT,Đại học Cần Thơ,Kỹ thuật công trình xây dựng,"A00, A01",280,20,160
+TCT,Đại học Cần Thơ,Kỹ thuật tài nguyên nước,"A00, A01",60,16,60
+TCT,Đại học Cần Thơ,Chăn nuôi,"A00, B00",110,19.25,130
+TCT,Đại học Cần Thơ,Nông học,B00,80,18.5,80
+TCT,Đại học Cần Thơ,Khoa học cây trồng,B00,180,15,180
+TCT,Đại học Cần Thơ,Bảo vệ thực vật,B00,150,18.25,160
+TCT,Đại học Cần Thơ,Công nghệ rau quả và cảnh quan,B00,60,16.25,60
+TCT,Đại học Cần Thơ,Kinh tế nông nghiệp,"A00, A01,D01",100,17.25,120
+TCT,Đại học Cần Thơ,Phát triển nông thôn,"A00, A01,B00",100,15.75,100
+TCT,Đại học Cần Thơ,Lâm sinh,B00,60,17.25,60
+TCT,Đại học Cần Thơ,Nuôi trồng thủy sản,B00,160,15,160
+TCT,Đại học Cần Thơ,Bệnh học thủy sản,B00,80,16,80
+TCT,Đại học Cần Thơ,Quản lý nguồn lợi thủy sản,"A00, B00",60,17.75,60
+TCT,Đại học Cần Thơ,Thú ý,B00,150,20.25,150
+TCT,Đại học Cần Thơ,Quản lý tài nguyên và môi trường,"A00, A01, B00",80,18.75,100
+TCT,Đại học Cần Thơ,Kinh tế tài nguyên thiên nhiên,"A00, A01, D01",80,15,100
+DMS,Đại học tài chính - Marketing,Quản trị khách sạn,"A00, A01, D01",150,20.5,150
+DMS,Đại học tài chính - Marketing,Quản trị nhà hàng và dịch vụ ăn uống,"A00, A01, D01",100,20,100
+DMS,Đại học tài chính - Marketing,Marketing,"A00, A01, D01",400,21,400
+DMS,Đại học tài chính - Marketing,Bất động sản,"A00, A01, D01",80,18.5,80
+DMS,Đại học tài chính - Marketing,Kinh doanh quốc tế,"A00, A01, D01",320,21.75,320
+DMS,Đại học tài chính - Marketing,Tài chính - Ngân hàng,"A00, A01, D01",520,19.25,520
+DMS,Đại học tài chính - Marketing,Kế toán,"A00, A01, D01",200,20.75,200
+DMS,Đại học tài chính - Marketing,Hệ thống thông tin quản lý,"A00, A01, D01",100,18.5,100
+DMS,Đại học tài chính - Marketing,Ngôn ngữ Anh,D01,120,26,120
+MTU,Đại học Xây dựng miền Tây,Quy hoạch vùng và đô thị,"V00, H01",30,15,30
+MTU,Đại học Xây dựng miền Tây,Kiến trúc,"V00, H01",60,15,60
+SGD,Đại học Sài Gòn,Quản trị kinh doanh,A01,90,24.25,370
+SGD,Đại học Sài Gòn,Tài chính ngân hàng,D01,280,21,370
+SGD,Đại học Sài Gòn,Tài chính ngân hàng,C01,90,25,370
+SGD,Đại học Sài Gòn,Kế toán,D01,280,21.25,370
+SGD,Đại học Sài Gòn,Kế toán,C01,90,26.25,370
+SGD,Đại học Sài Gòn,Quản trị văn phòng,D01,60,25.25,80
+SGD,Đại học Sài Gòn,Quản trị văn phòng,C03,20,26.5,80
+SGD,Đại học Sài Gòn,"Công nghệ kĩ thuật điện, điện tử",A01,35,18.25,70
+SGD,Đại học Sài Gòn,"Công nghệ kỹ thuật điện tử, truyền thông",A00,35,19.25,70
+SGD,Đại học Sài Gòn,"Công nghệ kỹ thuật điện tử, truyền thông",A01,35,18,70
+SGD,Đại học Sài Gòn,Công nghệ kĩ thuật môi trường,A00,35,18,70
+SGD,Đại học Sài Gòn,Sư phạm Tiếng Anh,D01,160,28.5,80
+DQB,Đại học Quảng Bình,Sư phạm Vật lý,"A00, A01",60,20,60
+DQB,Đại học Quảng Bình,Sư phạm Hóa học,"A00, B00",60,20,60
+DQB,Đại học Quảng Bình,Sư phạm Sinh học,"B00, D08",40,20,60
+DQB,Đại học Quảng Bình,Sư phạm Ngữ văn,C00,60,22.75,60
+DQB,Đại học Quảng Bình,Sư phạm Lịch sử,C00,60,20,60
+DQB,Đại học Quảng Bình,Ngôn ngữ Anh,D01,80,20,120
+DQB,Đại học Quảng Bình,Địa lý Du lịch,"A00, C00,D01",60,15,60
+DQB,Đại học Quảng Bình,Quản trị kinh doanh,"A00, A01,D01",60,15,60
+DQB,Đại học Quảng Bình,Luật,"A00, A01,C00, D01",140,15,120
+DQB,Đại học Quảng Bình,Kỹ thuật phần mềm,"A00, A01",50,15,50
+DQB,Đại học Quảng Bình,Công nghệ thông tin,"A00, A01",50,15,50
+QST,Đại học Khoa học tự nhiên - ĐHQGTPHCM,Khoa học môi trường,"A00, B00",175,20.75,150
+QST,Đại học Khoa học tự nhiên - ĐHQGTPHCM,Khoa học vật liệu,A00,200,20,200
+QST,Đại học Khoa học tự nhiên - ĐHQGTPHCM,Khoa học vật liệu,B00,200,20,200
+QST,Đại học Khoa học tự nhiên - ĐHQGTPHCM,"Kỹ thuật điện tử, truyền thông","A00, A01",200,22,200
+QST,Đại học Khoa học tự nhiên - ĐHQGTPHCM,Kỹ thuật hạt nhân,A00,50,23,50
+QST,Đại học Khoa học tự nhiên - ĐHQGTPHCM,Nhóm ngành công nghệ thông tin,"A00, A01",600,23,600
+QST,Đại học Khoa học tự nhiên - ĐHQGTPHCM,Sinh học,B00,300,20.5,300
+QST,Đại học Khoa học tự nhiên - ĐHQGTPHCM,Toán học,"A00, A01",300,20,300
+QST,Đại học Khoa học tự nhiên - ĐHQGTPHCM,Vật lý học,"A00, A01",200,20,200
+QSX,ĐH Khoa học xã hội và nhân văn - ĐHQG TP.HCM,Văn học,C00,100,22.25,100
+QSX,ĐH Khoa học xã hội và nhân văn - ĐHQG TP.HCM,Văn học,D01,100,20.62,100
+QSX,ĐH Khoa học xã hội và nhân văn - ĐHQG TP.HCM,Văn học,D14,100,20.81,100
+QSX,ĐH Khoa học xã hội và nhân văn - ĐHQG TP.HCM,Ngôn ngữ học,C00,100,22.25,100
+QSX,ĐH Khoa học xã hội và nhân văn - ĐHQG TP.HCM,Ngôn ngữ học,D01,100,20.58,100
+QSX,ĐH Khoa học xã hội và nhân văn - ĐHQG TP.HCM,Ngôn ngữ học,D14,100,20.7,100
+QSX,ĐH Khoa học xã hội và nhân văn - ĐHQG TP.HCM,Báo chí,C00,130,25,130
+QSX,ĐH Khoa học xã hội và nhân văn - ĐHQG TP.HCM,Báo chí,"D01, D14",130,22.25,130
+QSX,ĐH Khoa học xã hội và nhân văn - ĐHQG TP.HCM,Lịch sử,C00,130,17.5,120
+QSX,ĐH Khoa học xã hội và nhân văn - ĐHQG TP.HCM,Lịch sử,D01,130,16.5,120
+QSX,ĐH Khoa học xã hội và nhân văn - ĐHQG TP.HCM,Lịch sử,D14,130,17.75,120
+QSX,ĐH Khoa học xã hội và nhân văn - ĐHQG TP.HCM,Nhân học,C00,60,18.75,60
+QSX,ĐH Khoa học xã hội và nhân văn - ĐHQG TP.HCM,Nhân học,"D01, D14",60,17.75,60
+QSX,ĐH Khoa học xã hội và nhân văn - ĐHQG TP.HCM,Triết học,A01,100,16.5,90
+QSB,Đại học Bách Khoa - ĐHQG TP.HCM,Nhóm ngành dệt may,"A00, A01",70,22.5,70
+QSB,Đại học Bách Khoa - ĐHQG TP.HCM,Nhóm ngành cơ khí- cơ điện tử,"A00, A01",500,23.75,410
+QSB,Đại học Bách Khoa - ĐHQG TP.HCM,Nhóm ngành vật lý kỹ thuật- cơ kỹ thuật,"A00, A01",150,23,150
+QSB,Đại học Bách Khoa - ĐHQG TP.HCM,Nhóm ngành Xây dựng,"A00, A01",530,22.75,450
+QSB,Đại học Bách Khoa - ĐHQG TP.HCM,Kỹ thuật Dầu khí (CLC),"A00, A01",45,19,45
+QSB,Đại học Bách Khoa - ĐHQG TP.HCM,Kỹ thuật máy tính (CLC),"A00, A01",45,21.5,45
+QSB,Đại học Bách Khoa - ĐHQG TP.HCM,Khoa học máy tính (CLC),"A00, A01",45,23.25,45
+QSB,Đại học Bách Khoa - ĐHQG TP.HCM,Kỹ thuật Hóa học (CLC),"A00, D07, B00",45,22.75,45
+QSQ,Đại học Quốc tế - ĐHQG TP.HCM,Kỹ thuật Y sinh,"A00, A01, B00",80,22,75
+QSQ,Đại học Quốc tế - ĐHQG TP.HCM,Kỹ thuật Xây dựng,"A00, A01",50,18,50
+QSQ,Đại học Quốc tế - ĐHQG TP.HCM,Kỹ thuật Điều khiển và tự động hóa,"A00, A01",50,19.75,45
+QSQ,Đại học Quốc tế - ĐHQG TP.HCM,Logistics và Quản lý chuỗi cung ứng,"A00, A01, D01",140,22.5,140
+QSQ,Đại học Quốc tế - ĐHQG TP.HCM,Quản trị kinh doanh,"A00, A01, D01",150,22.5,150
+QSQ,Đại học Quốc tế - ĐHQG TP.HCM,Tài chính - Ngân hàng,"A00, A01, D01",100,21.5,100
+QSQ,Đại học Quốc tế - ĐHQG TP.HCM,Toán ứng dụng,"A00, A01",40,19,40
+QSQ,Đại học Quốc tế - ĐHQG TP.HCM,Công nghệ Sinh học,"A00, A01, D01",150,20.5,150
+QSQ,Đại học Quốc tế - ĐHQG TP.HCM,Hóa sinh,"A00, A01, B00",60,21,55
+QSQ,Đại học Quốc tế - ĐHQG TP.HCM,Quản lý nguồn lợi thủy sản,"A00, A01, B00, D01",30,17.75,30
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Tài chính - Ngân hàng,"A01, D01",150,22.25,150
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Kế toán,A00,100,24,100
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Kế toán,"A01, D01",100,23,100
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Hệ thống Thông tin Quản lý,A00,90,22.5,150
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Hệ thống Thông tin Quản lý,"A01, D01",90,21.5,150
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Quản trị kinh doanh,A00,120,24.25,120
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Quản trị kinh doanh,"A01, D01",120,23.25,120
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Kiểm toán,A00,100,24.75,100
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Kiểm toán,"A01, D01",100,23.75,100
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Marketing,A00,70,24,70
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Marketing,"A01, D01",70,23,70
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Thương mại điện tử,A00,60,23,150
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Thương mại điện tử,"A01, D01",60,22,150
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Luật kinh doanh,A00,200,24,200
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Luật kinh doanh,"A01, D01",200,23,200
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Luật thương mại quốc tế,A00,200,24,200
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Luật thương mại quốc tế,"A01, D01",200,23,200
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Luật dân sự,A00,150,23.25,170
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Luật dân sự,"A01, D01",150,22.25,170
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Luật tài chính - Ngân hàng,A00,150,22.75,170
+QSK,Đại học Kinh tế - Luật - ĐHQG TP HCM,Luật tài chính - Ngân hàng,"A01, D01",150,21.75,170
+DQN,Đại học Quy Nhơn,Sư phạm toán học,A00,65,22,60
+DQN,Đại học Quy Nhơn,Sư phạm Vật lý,"A00, A01",65,20.5,50
+DQN,Đại học Quy Nhơn,Sư phạm Hóa học,A00,65,19.5,50
+DQN,Đại học Quy Nhơn,Sư phạm Tin học,"A00, A01,D01",40,15,30
+DQN,Đại học Quy Nhơn,Sư phạm Sinh học,B00,55,15,40
+DQN,Đại học Quy Nhơn,Sư phạm Ngữ văn,C00,60,19.5,50
+DQN,Đại học Quy Nhơn,Sư phạm Lịch sử,C00,55,15,40
+DQN,Đại học Quy Nhơn,Sư phạm Địa lí,"A00, C00",55,17,40
+DQN,Đại học Quy Nhơn,Giáo dục chính trị,"C00, D01",40,15,30
+DQN,Đại học Quy Nhơn,Sư phạm Tiếng Anh,D01,110,23,90
+DQN,Đại học Quy Nhơn,Giáo dục Tiểu học,"A00, C00",80,22,90
+DQN,Đại học Quy Nhơn,Giáo dục Thể chât,T,40,23,30
+DQN,Đại học Quy Nhơn,Giáo dục Mầm non,M,80,19.5,90
+DQN,Đại học Quy Nhơn,Toán học,A00,80,15,100
+DQN,Đại học Quy Nhơn,Công nghệ thông tin,"A00, A01,D01",250,15,300
+DQN,Đại học Quy Nhơn,Vật lý học,"A00, A01",60,15,100
+DQN,Đại học Quy Nhơn,Hóa học,A00,80,15,125
+DQN,Đại học Quy Nhơn,Sinh học,B00,60,15,100
+DQN,Đại học Quy Nhơn,Quản lý đất đai,"A00, B00,D01",100,15,200
+DQN,Đại học Quy Nhơn,Địa lý tự nhiên,"A00, B00,D01",30,15,100
+DQN,Đại học Quy Nhơn,Văn học,C00,150,15,200
+DQN,Đại học Quy Nhơn,Lịch sử,C00,100,15,100
+DQN,Đại học Quy Nhơn,Tâm lý học giáo dục,"A00, A01,D01",40,15,85
+DQN,Đại học Quy Nhơn,Công tác xã hội,"C00, D01",60,15,100
+DQN,Đại học Quy Nhơn,Quản lý giáo dục,"A00, A01,D01",50,15,40
+DQN,Đại học Quy Nhơn,Việt Nam học,"C00, D01",70,15,100
+DQN,Đại học Quy Nhơn,Quản lý nhà nước,"A00, A01,D01",200,15,300
+DQN,Đại học Quy Nhơn,Ngôn ngữ Anh,D01,280,20,300
+DQN,Đại học Quy Nhơn,Quản trị kinh doanh,"A00, D01,A01",400,15,300
+DQN,Đại học Quy Nhơn,Kinh tế,"A00, D01,A01",250,15,200
+DQN,Đại học Quy Nhơn,Kế toán,"A00, D01,A01",350,15,285
+DQN,Đại học Quy Nhơn,Tài chính - Ngân hàng,"A00, D01, A01",250,15,80
+DQN,Đại học Quy Nhơn,"Kĩ thuật điện, điện tử","A00, A01",180,16,250
+DTK,Đại học Nông Lâm - Đại học Thái Nguyên,Khuyến nông,"A00, B00, C02, D01",70,15,50
+DTK,Đại học Nông Lâm - Đại học Thái Nguyên,Khoa học môi trường,"A00, B00, C02, D01",140,15,100
+DTK,Đại học Nông Lâm - Đại học Thái Nguyên,Khoa học và quản lý môi trường,"A00, B00, C02, D01",70,15,50
+DTK,Đại học Nông Lâm - Đại học Thái Nguyên,Nuôi trồng thủy sản,"A00, B00, C02, D01",70,15,30
+DTK,Đại học Nông Lâm - Đại học Thái Nguyên,Công nghệ rau hoa quả và Cảnh quan,"A00, B00, C02, D01",70,15,30
+DTK,Đại học Nông Lâm - Đại học Thái Nguyên,Công nghệ Sinh học,"A00, B00, C02, D01",70,15,50
+DTK,Đại học Nông Lâm - Đại học Thái Nguyên,Công nghệ sau thu hoạch,"A00, B00, C02, D01",70,15,70
+DTK,Đại học Nông Lâm - Đại học Thái Nguyên,Quản lý tài nguyên và môi trường,"A00, B00, C02, D01",70,15,80
+TGA,Đại học An Giang,Tài chính - Ngân hàng,"A00, A01, D00",100,15,60
+TGA,Đại học An Giang,Quản trị kinh doanh,"A00, A01,D00",100,16.25,80
+TGA,Đại học An Giang,Kinh tế Quốc tế,"A00, A01,D00",50,15,50
+TGA,Đại học An Giang,Ngôn ngữ Anh,D00,80,18,80
+TGA,Đại học An Giang,Việt Nam học,"A00, C00,D00",50,18,50
+TGA,Đại học An Giang,SP tiếng Anh,D00,40,22,40
+TGA,Đại học An Giang,SP Địa lý,"C00, C02",40,15.25,40
+TGA,Đại học An Giang,SP Lịch sử,"C00, C01",40,15.5,40
+TGA,Đại học An Giang,SP Ngữ văn,"C00, D00",40,17,40
+TGA,Đại học An Giang,SP Sinh học,B00,40,15,40
+TGA,Đại học An Giang,SP Hóa học,"A00, A01",40,15,40
+TGA,Đại học An Giang,SP Vật lý,"A00, A01",40,115,40
+TGA,Đại học An Giang,SP Toán học,"A00, A01",40,15.5,40
+TGA,Đại học An Giang,GD Chính trị,"C00, D00",40,17,40
+TGA,Đại học An Giang,Tài chính doanh nghiệp,"A00, A01, D00",100,15,80
+TGA,Đại học An Giang,Kế toán,"A00, A01,D00",100,16.5,80
