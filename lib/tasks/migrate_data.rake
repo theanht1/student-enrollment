@@ -28,3 +28,18 @@ task init_subjects: :environment do
     })
   end
 end
+
+desc "Initial combinations"
+task init_combinations: :environment do
+  combinations = CSV.read('./lib/tasks/seeds_db/combination.csv')
+
+  combinations[1..-1].each do |comb|
+    Combination.create({
+      id: comb[0],
+      code: comb[1],
+      id1: comb[2],
+      id2: comb[3],
+      id3: comb[4]
+    })
+  end
+end
