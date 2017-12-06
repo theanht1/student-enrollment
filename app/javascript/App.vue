@@ -2,7 +2,9 @@
   div
     el-container
       header-component(v-if="$route.name !== 'Login'")
-      router-view
+
+    el-container
+      router-view(style="margin: 30px auto")
 </template>
 
 <script>
@@ -16,3 +18,10 @@
     },
   }
 </script>
+
+<style>
+  body {
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+    margin: 0px;
+  }
+</style>

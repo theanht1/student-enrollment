@@ -7,6 +7,7 @@
     "bootstrap": "^3.3.7",
     "coffeescript": "1.12.7",
     "element-ui": "^2.0.7",
+    "lodash": "^4.17.4",
     "pug": "^2.0.0-rc.4",
     "vue": "^2.5.9",
     "vue-loader": "^13.5.0",
