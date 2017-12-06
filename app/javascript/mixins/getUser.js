@@ -7,13 +7,9 @@ export default {
     } else {
       store.dispatch('getUser')
         .then(() => {
-          if (store.state.auth.isAuthenticated) {
-            next()
-          } else {
-            next({ name: 'Login' })
-          }
+          next()
         }, () => {
-          next({ name: 'Login' })
+          next()
         })
     }
   },

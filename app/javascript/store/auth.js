@@ -34,8 +34,11 @@ const auth = {
     },
 
     logout({ commit }) {
-      commit('setUser', { id: -1 })
-      commit('setAuthenticate', false)
+      return axios.delete('/logout')
+        .then(() => {
+          commit('setUser', { id: -1 })
+          commit('setAuthenticate', false)
+        })
     },
   },
 }

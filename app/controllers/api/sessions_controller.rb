@@ -19,10 +19,16 @@ module Api
     end
 
     def destroy
+      session[:user_id] = nil
+      render json: {}
     end
 
     def me
-      render json: @current_user.detail_info
+      if @current_user
+        render json: @current_user.detail_info
+      else
+        render json: {}, status: 401
+      end
     end
   end
 end
