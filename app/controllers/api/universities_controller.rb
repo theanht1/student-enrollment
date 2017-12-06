@@ -6,7 +6,7 @@ module Api
       unis = University.order(:rank)
       params[:q].split(' ').each do |q|
         query = "%#{q}%"
-        unis = unis.where("name ILIKE ? OR branch ILIKE ?", query, query)
+        unis = unis.where("code ILIKE ? OR name ILIKE ? OR branch ILIKE ?", query, query, query)
       end
 
       offset = ((params[:page] || '1').to_i - 1) * params[:per].to_i
