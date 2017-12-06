@@ -1,11 +1,9 @@
 <template lang="pug">
   div
-    el-container
-      router-view
 </template>
 
 <script>
   export default {
-    name: 'Nhom2',
+
   }
 </script>

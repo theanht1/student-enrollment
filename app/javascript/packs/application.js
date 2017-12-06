@@ -1,7 +1,13 @@
 import Vue from 'vue/dist/vue.esm'
-import App from '../App.vue'
+import Element from 'element-ui'
+import locale from 'element-ui/lib/locale/lang/en'
 
+import 'element-ui/lib/theme-chalk/index.css'
+
+import App from '../App.vue'
 import router from '../router'
+
+Vue.use(Element, { locale })
 
 document.addEventListener('DOMContentLoaded', () => {
   document.body.appendChild(document.createElement('app'))
@@ -9,10 +15,4 @@ document.addEventListener('DOMContentLoaded', () => {
     ...App,
     router,
   }).$mount('app')
-
-  // const app = new Vue({
-  //   el: 'app',
-  //   template: '<App/>',
-  //   components: { App }
-  // })
 })
