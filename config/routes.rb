@@ -4,6 +4,11 @@ Rails.application.routes.draw do
     post '/login', to: 'sessions#create'
     delete '/logout', to: 'sessions#destroy'
     get '/me', to: 'sessions#me'
+
+    get '/wishes', to: 'wishes#index'
+    post '/wishes', to: 'wishes#create'
+    delete '/wishes/:id', to: 'wishes#destroy'
+
   end
 
   get '/', to: 'application#index', format: false
