@@ -31,6 +31,16 @@
         label="Chỉ tiêu 2017"
       )
       el-table-column(
+        prop="score"
+        label="Điểm thi"
+      )
+      el-table-column(
+        label="Xác suất đỗ"
+      )
+        template(slot-scope="scope")
+          | {{ (scope.row.prob * 100).toFixed(1) }} %
+
+      el-table-column(
         label="Xóa"
       )
         template(slot-scope="scope")

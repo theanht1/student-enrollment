@@ -1,5 +1,5 @@
 <template lang="pug">
-  div(style="width: 60%;")
+  div(style="width: 80%;")
     el-tabs(v-model="activeTab")
       el-tab-pane(label="Thông tin thí sinh" name="1")
         student-info(
