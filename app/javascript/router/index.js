@@ -5,6 +5,7 @@ import Login from '../pages/Login'
 import Index from '../pages/Index'
 import Student from '../pages/Student'
 import UniversityList from '../pages/UniversityList'
+import StudentWish from '../pages/StudentWish'
 
 Vue.use(Router)
 
@@ -20,12 +21,17 @@ const routes = [
     component: Login,
   },
   {
-    path: '/student',
+    path: '/thi-sinh',
     name: 'Student',
     component: Student,
   },
   {
-    path: '/universities',
+    path: '/nguyen-vong',
+    name: 'StudentWish',
+    component: StudentWish,
+  },
+  {
+    path: '/dai-hoc',
     name: 'UniversityList',
     component: UniversityList,
   },

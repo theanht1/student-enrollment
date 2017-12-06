@@ -1,5 +1,5 @@
 <template lang="pug">
-  div
+  div(style="width: 80%")
     el-table(
       :data="wishes"
       :stripe="true"
@@ -68,7 +68,7 @@
 <script>
   import axios from 'axios'
 
-  import WishModal from '../WishModal'
+  import WishModal from '@/../components/WishModal'
 
   export default {
     components: { WishModal },

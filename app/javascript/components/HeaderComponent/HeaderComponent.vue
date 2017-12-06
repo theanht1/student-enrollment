@@ -20,10 +20,13 @@
           div(v-else)
             el-menu-item(index="5" @click="logout") Đăng xuất
 
-            router-link(to="/student")
+            router-link(to="/thi-sinh")
               el-menu-item(index="Student") Thông tin thí sinh
 
-          router-link(to="/universities")
+            router-link(to="/nguyen-vong")
+              el-menu-item(index="StudentWish") Danh sách nguyện vọng
+
+          router-link(to="/dai-hoc")
             el-menu-item(index="UniversityList") Danh sách trường/ngành
 
           router-link(to="/")

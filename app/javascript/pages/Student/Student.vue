@@ -1,14 +1,10 @@
 <template lang="pug">
-  div(style="width: 80%;")
-    el-tabs(v-model="activeTab")
-      el-tab-pane(label="Thông tin thí sinh" name="1")
-        student-info(
-          :user.sync="user"
-          @save="save"
-        )
+  div(style="width: 60%;")
+    student-info(
+      :user.sync="user"
+      @save="save"
+    )
 
-      el-tab-pane(label="Danh sách nguyện vọng" name="2")
-        student-wish()
 </template>
 
 <script>
@@ -17,18 +13,15 @@
   import cloneDeep from 'lodash/cloneDeep'
 
   import StudentInfo from '@/../components/StudentInfo'
-  import StudentWish from '@/../components/StudentWish'
 
   export default {
     components: {
       StudentInfo,
-      StudentWish,
     },
 
     data() {
       return {
         user: {},
-        activeTab: '1',
       }
     },
 
