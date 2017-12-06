@@ -15,5 +15,29 @@ module Api
         total: unis.count
       }
     end
+
+    def search_universities
+      unis = University.distinct.pluck(:code, :name).map
+      params[:q].split(' ').each do |q|
+        unis = unis.select do |uni|
+          uni[0].match(/#{q}/i) || uni[1].match(/#{q}/i)
+        end
+      end
+
+      render json: {
+        universities: unis.first(10).map do |uni|
+          {
+            code: uni[0],
+            name: uni[1]
+          }
+        end,
+      }
+    end
+
+    def branches
+      unis = University.where(code: params[:code]).all
+
+      render json: unis
+    end
   end
 end

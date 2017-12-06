@@ -8,13 +8,14 @@ module Api
     def create
       wish = Wish.new({
         user_id: @current_user.id,
-        university_id: params[:university_id]
+        university_id: params[:university_id],
+        combination: params[:combination],
       })
 
       if wish.save
         render json: wish.wish_response, status: 201
       else
-        render json: {}, status: 400
+        render json: wish.errors.full_messages, status: 400
       end
     end
 

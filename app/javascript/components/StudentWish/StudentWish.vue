@@ -23,9 +23,8 @@
         width="200"
       )
       el-table-column(
-        prop="university.combinations"
+        prop="combination"
         label="Khối"
-        :formatter="combinationsFormat"
       )
       el-table-column(
         prop="university.amount_2017"
@@ -41,41 +40,34 @@
             @click="deleteWish(scope.$index, scope.row)"
           ) Xóa
 
-    el-row(:gutter="10" style="margin-top: 30px;")
-      el-col(:span="12")
-        el-select(
-          v-model="uniId"
-          filterable
-          remote
-          :remote-method="getUni"
-          :loading="searching"
-          style="width: 100%"
-        )
-          el-option(
-            v-for="uni in unisSearch"
-            :key="uni.id"
-            :label="`${uni.branch} - ${uni.name}`"
-            :value="uni.id"
-          )
-      el-col(:span="4")
-        el-button(
-          type="primary"
-          size="small"
-          @click="addWishes"
-        ) Thêm nguyện vọng
+    div(style="margin-top: 30px;")
+      el-button(
+        type="primary"
+        @click="showWishModal = true"
+      ) Thêm nguyện vọng
+
+      wish-modal(
+        :visible-prop="showWishModal"
+        type="add"
+        @close="showWishModal = false"
+        @addWish="addWish"
+      )
 
 </template>
 
 <script>
   import axios from 'axios'
 
+  import WishModal from '../WishModal'
+
   export default {
+    components: { WishModal },
+
     data() {
       return {
         wishes: [],
-        unisSearch: [],
-        uniId: '',
-        searching: false,
+
+        showWishModal: false,
       }
     },
 
@@ -92,22 +84,6 @@
         return axios.get('/wishes')
           .then(({ data }) => {
             this.$set(this, 'wishes', data)
-          })
-      },
-
-      addWishes() {
-        return axios.post('/wishes', {
-          university_id: this.uniId,
-        })
-          .then(() => {
-            this.uniId = ''
-            this.unisSearch = []
-
-            this.$notify.success({
-              title: 'Đăng kí nguyện vọng thành công',
-              position: 'bottom-right',
-            })
-            this.getWishes()
           })
       },
 
@@ -129,21 +105,20 @@
           })
       },
 
-      getUni(query) {
-        this.searching = true
-        return axios.get('/universities', {
-          params: {
-            q: query,
-            page: 1,
-            per: 10.
-          },
+      addWish({ university_id, combination}) {
+        return axios.post('/wishes', {
+          university_id,
+          combination,
         })
-          .then(({data}) => {
-            this.searching = false
-            this.$set(this, 'unisSearch', data.universities)
+          .then(() => {
+            this.$notify.success({
+              title: 'Đăng kí nguyện vọng thành công',
+              position: 'bottom-right',
+            })
+            this.getWishes()
+            this.showWishModal = false
           })
       },
-
       combinationsFormat(row, col, combs) {
         return combs.join(', ')
       },

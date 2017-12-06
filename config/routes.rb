@@ -13,6 +13,8 @@ Rails.application.routes.draw do
 
 
     get '/universities', to: 'universities#index'
+    get '/search-universities', to: 'universities#search_universities'
+    get '/universities/:code/branches', to: 'universities#branches'
 
   end
 

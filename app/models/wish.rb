@@ -5,6 +5,7 @@ class Wish < ApplicationRecord
   def wish_response
     {
       id: id,
+      combination: combination,
       university: university,
     }
   end
