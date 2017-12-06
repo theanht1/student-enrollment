@@ -86,3 +86,14 @@ task add_university_rank: :environment do
     end
   end
 end
+
+desc "Add university threshold score"
+task add_threshold_score: :environment do
+  University.all.each do |uni|
+    if uni.combinations.include?('B00')
+      uni.update(threshold_score: 17 + rand(3))
+    else
+      uni.update(threshold_score: 14 + rand(3))
+    end
+  end
+end
