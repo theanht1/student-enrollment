@@ -1,11 +1,8 @@
 module Api
   class WishesController < Api::ApiController
     def index
-      render json: @current_user.wishes.includes(:universities).map do |wish|
-        {
-          university: wish.university,
-        }
-      end
+      res = @current_user.wishes.includes(:university).map(&:wish_response)
+      render json: res
     end
 
     def create
@@ -15,7 +12,7 @@ module Api
       })
 
       if wish.save
-        render json: wish, status: 201
+        render json: wish.wish_response, status: 201
       else
         render json: {}, status: 400
       end
