@@ -2,26 +2,39 @@
   el-header(:class="$style.header")
     el-row(type="flex" align="middle")
       el-col(:span="4" style="width: 300px")
-        router-link(to="/")
+        router-link(to="/" style="text-decoration: none")
           h1 Hỗ trợ tuyển sinh
 
       el-col(:span="22")
         el-menu(
           :class="$style.menu"
+          :default-active="activeTab"
           mode="horizontal"
           background-color="#f9f9f9"
           text-color="black"
+          active-text-color="#ffd04b"
         )
           router-link(v-if="!isAuthenticated" to="/login")
-            el-menu-item(index="3") Đăng nhập
+            el-menu-item(index="5") Đăng nhập
 
           div(v-else)
-            el-menu-item(index="3" @click="logout") Đăng xuất
+            el-menu-item(index="5" @click="logout") Đăng xuất
 
             router-link(to="/settings")
-              el-menu-item(index="2") Cài đặt
+              el-menu-item(index="Setting") Cài đặt
 
-          el-menu-item(:class="$style.welcome" index="1" style="border: none !important;") Xin chào,
+          router-link(to="/universities")
+            el-menu-item(index="UniversityList") Danh sách trường/ngành
+
+          router-link(to="/")
+            el-menu-item(index="Index") Trang chủ
+
+          el-menu-item(
+            v-if="isAuthenticated"
+            :class="$style.welcome"
+            index="1"
+            style="border: none !important;"
+          ) Xin chào,
             span  {{ user.name }}
 </template>
 
@@ -34,6 +47,14 @@
         isAuthenticated: state => state.auth.isAuthenticated,
         user: state => state.auth.user,
       }),
+
+      activeTab() {
+        return this.$route.name
+      },
+    },
+
+    created() {
+
     },
 
     methods: {
@@ -57,7 +78,7 @@
     & li {
       float: right !important;
       margin: * 20px * * !important;
-      border-bottom: 2px solid #008000 !important;
+      /*border-bottom: 2px solid #008000 !important;*/
     }
   }
 

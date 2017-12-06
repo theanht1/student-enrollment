@@ -9,7 +9,7 @@ Rails.application.routes.draw do
     post '/wishes', to: 'wishes#create'
     delete '/wishes/:id', to: 'wishes#destroy'
 
-    get '/search-universities', to: 'universities#search'
+    get '/universities', to: 'universities#index'
 
   end
 

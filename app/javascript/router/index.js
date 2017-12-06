@@ -4,6 +4,7 @@ import Router from 'vue-router'
 import Login from '../pages/Login'
 import Index from '../pages/Index'
 import Setting from '../pages/Setting'
+import UniversityList from '../pages/UniversityList'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ const routes = [
     path: '/settings',
     name: 'Setting',
     component: Setting,
+  },
+  {
+    path: '/universities',
+    name: 'UniversityList',
+    component: UniversityList,
   },
 ]
 

@@ -155,14 +155,16 @@
 
       getUni(query) {
         this.searching = true
-        return axios.get('/search-universities', {
+        return axios.get('/universities', {
           params: {
             q: query,
+            page: 1,
+            per: 10.
           },
         })
           .then(({data}) => {
             this.searching = false
-            this.$set(this, 'unisSearch', data)
+            this.$set(this, 'unisSearch', data.universities)
           })
       },
 
