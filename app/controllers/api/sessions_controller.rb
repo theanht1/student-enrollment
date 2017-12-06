@@ -12,7 +12,7 @@ module Api
       if user && user.authenticate(params[:password])
         session[:user_id] = user[:id]
 
-        render json: user
+        render json: user.detail_info
       else
         render json: {}, status: 401
       end
@@ -22,7 +22,7 @@ module Api
     end
 
     def me
-      render json: @current_user
+      render json: @current_user.detail_info
     end
   end
 end

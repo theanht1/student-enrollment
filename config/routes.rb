@@ -5,9 +5,12 @@ Rails.application.routes.draw do
     delete '/logout', to: 'sessions#destroy'
     get '/me', to: 'sessions#me'
 
+    patch '/user', to: 'users#update'
+
     get '/wishes', to: 'wishes#index'
     post '/wishes', to: 'wishes#create'
     delete '/wishes/:id', to: 'wishes#destroy'
+
 
     get '/universities', to: 'universities#index'
 

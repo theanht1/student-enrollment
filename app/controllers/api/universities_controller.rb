@@ -3,7 +3,7 @@ module Api
     skip_before_action :get_current_user, only: [:index]
 
     def index
-      unis = University.order(:rank)
+      unis = University.order(:rank, :name)
       params[:q].split(' ').each do |q|
         query = "%#{q}%"
         unis = unis.where("code ILIKE ? OR name ILIKE ? OR branch ILIKE ?", query, query, query)

@@ -5,6 +5,8 @@
 
     el-container
       router-view(style="margin: 30px auto")
+
+    el-footer(style="margin-top: 50px")
 </template>
 
 <script>
