@@ -49,7 +49,7 @@
     methods: {
       login() {
         this.loading = true
-        return axios.post('/api/login', this.user)
+        return axios.post('/login', this.user)
           .then(({ data }) => {
             this.loading = false
             this.$store.dispatch('login', data)

@@ -20,5 +20,9 @@ module Api
 
     def destroy
     end
+
+    def me
+      render json: @current_user
+    end
   end
 end

@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 import Login from '../pages/Login'
 import Index from '../pages/Index'
+import Setting from '../pages/Setting'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ const routes = [
     path: '/login',
     name: 'Login',
     component: Login,
+  },
+  {
+    path: '/settings',
+    name: 'Setting',
+    component: Setting,
   },
 ]
 
