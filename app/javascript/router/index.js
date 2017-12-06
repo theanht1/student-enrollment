@@ -3,7 +3,7 @@ import Router from 'vue-router'
 
 import Login from '../pages/Login'
 import Index from '../pages/Index'
-import Setting from '../pages/Setting'
+import Student from '../pages/Student'
 import UniversityList from '../pages/UniversityList'
 
 Vue.use(Router)
@@ -20,9 +20,9 @@ const routes = [
     component: Login,
   },
   {
-    path: '/settings',
-    name: 'Setting',
-    component: Setting,
+    path: '/student',
+    name: 'Student',
+    component: Student,
   },
   {
     path: '/universities',
