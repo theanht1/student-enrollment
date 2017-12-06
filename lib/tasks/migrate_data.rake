@@ -76,3 +76,13 @@ task init_universities: :environment do
   end
 end
 
+desc "Add university rank"
+task add_university_rank: :environment do
+  unis = CSV.read('./lib/tasks/seeds_db/university_rank.csv')
+
+  unis[1..-1].each do |ur|
+    University.where(code: ur[0]).all.each do |uni|
+      uni.update(rank: ur[2])
+    end
+  end
+end
