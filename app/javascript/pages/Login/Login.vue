@@ -52,6 +52,7 @@
         return axios.post('/api/login', this.user)
           .then(({ data }) => {
             this.loading = false
+            this.$store.dispatch('login', data)
             this.$router.push('/')
           }, (err) => {
             this.loading = false

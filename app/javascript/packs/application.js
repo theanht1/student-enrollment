@@ -6,7 +6,7 @@ import 'element-ui/lib/theme-chalk/index.css'
 
 import App from '../App.vue'
 import router from '../router'
-
+import store from '../store'
 Vue.use(Element, { locale })
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -14,5 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
   new Vue({
     ...App,
     router,
+    store,
   }).$mount('app')
 })
