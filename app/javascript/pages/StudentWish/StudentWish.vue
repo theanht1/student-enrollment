@@ -1,5 +1,5 @@
 <template lang="pug">
-  div(style="width: 80%")
+  div(style="width: 85%")
     el-table(
       :data="wishes"
       :stripe="true"
@@ -41,7 +41,7 @@
           | {{ (scope.row.prob * 100).toFixed(1) }} %
 
       el-table-column(
-        label="Xóa"
+        width="200"
       )
         template(slot-scope="scope")
           el-button(
@@ -49,6 +49,20 @@
             type="danger"
             @click="deleteWish(scope.$index, scope.row)"
           ) Xóa
+
+          el-button(
+            v-show="scope.$index > 0"
+            size="small"
+            icon="el-icon-arrow-up"
+            @click="moveUp(scope.$index)"
+          )
+
+          el-button(
+            v-show="scope.$index < wishes.length - 1"
+            size="small"
+            icon="el-icon-arrow-down"
+            @click="moveDown(scope.$index)"
+          )
 
     div(style="margin-top: 30px;")
       el-button(
@@ -141,8 +155,29 @@
             this.showWishModal = false
           })
       },
+
       combinationsFormat(row, col, combs) {
         return combs.join(', ')
+      },
+
+      changeOrder() {
+        const wishIds = this.wishes.map((wish) => wish.id)
+
+        return axios.patch('/order', {
+          wishes: wishIds,
+        })
+      },
+
+      moveUp(index) {
+        this.wishes.splice(index - 1, 0, this.wishes.splice(index,1)[0]);
+
+        this.changeOrder()
+      },
+
+      moveDown(index) {
+        this.wishes.splice(index + 1, 0, this.wishes.splice(index,1)[0]);
+
+        this.changeOrder()
       },
     },
   }

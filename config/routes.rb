@@ -10,6 +10,7 @@ Rails.application.routes.draw do
     get '/wishes', to: 'wishes#index'
     post '/wishes', to: 'wishes#create'
     delete '/wishes/:id', to: 'wishes#destroy'
+    patch '/order', to: 'wishes#order'
 
 
     get '/universities', to: 'universities#index'

@@ -1,7 +1,7 @@
 module Api
   class WishesController < Api::ApiController
     def index
-      res = @current_user.wishes.includes(:university).map(&:wish_response)
+      res = @current_user.wishes.order(:order).includes(:university).map(&:wish_response)
       render json: res
     end
 
@@ -9,6 +9,7 @@ module Api
       wish = Wish.new({
         user_id: @current_user.id,
         university_id: params[:university_id],
+        order: @current_user.wishes.length,
       })
 
       if wish.save
@@ -25,6 +26,16 @@ module Api
       else
         render json: {}, status: 400
       end
+    end
+
+    def order
+      wish_ids = params[:wishes]
+
+      @current_user.wishes.each do |wish|
+        wish.update(order: wish_ids.index(wish.id))
+      end
+
+      render json: {}
     end
   end
 end
