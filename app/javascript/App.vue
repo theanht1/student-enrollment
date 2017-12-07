@@ -3,7 +3,7 @@
     el-container
       header-component(v-if="$route.name !== 'Login'")
 
-    el-container
+    el-container(style="margin-top: 40px")
       router-view(style="margin: 30px auto")
 
     el-footer(style="margin-top: 50px")

@@ -1,5 +1,5 @@
 <template lang="pug">
-  div(style="width: 85%")
+  div(style="width: 90%")
     el-table(
       :data="wishes"
       :stripe="true"

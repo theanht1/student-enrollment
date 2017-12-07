@@ -1,7 +1,7 @@
 <template lang="pug">
   el-header(:class="$style.header")
     el-row(type="flex" align="middle")
-      el-col(:span="4" style="width: 300px")
+      el-col(:span="4" style="width: 300px; background-color: #f9f9f9 !important;")
         router-link(to="/" style="text-decoration: none")
           h1 Hỗ trợ tuyển sinh
 

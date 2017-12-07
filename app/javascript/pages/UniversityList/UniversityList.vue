@@ -1,5 +1,5 @@
 <template lang="pug">
-  div(style="width: 80%")
+  div(style="width: 90%")
     el-form(:inline="true" size="small")
       el-form-item(label="Tên trường/ngành")
         el-input(v-model="search")

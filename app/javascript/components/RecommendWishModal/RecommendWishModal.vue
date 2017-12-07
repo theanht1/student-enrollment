@@ -1,5 +1,5 @@
 <template lang="pug">
-  el-dialog(width="60%" title="Gợi ý nguyện vọng" :visible.sync="visible" @close="close")
+  el-dialog(width="70%" title="Gợi ý nguyện vọng" :visible.sync="visible" @close="close")
     el-form(
       :model="tempWish"
       ref="form"
