@@ -1,5 +1,5 @@
 <template lang="pug">
-  el-dialog(width="60%" title="Nội dung nguyện vọng" :visible.sync="visible" @close="close")
+  el-dialog(width="60%" title="Gợi ý nguyện vọng" :visible.sync="visible" @close="close")
     el-form(
       :model="tempWish"
       ref="form"
@@ -7,48 +7,54 @@
       label-position="left"
       @submit.native.prevent="submit"
     )
-      el-form-item(label="Trường")
+      el-form-item(label="Chọn ngành")
         el-col(:span="24" align="right")
           el-select(
-            v-model="uniCode"
+            v-model="selectedBranch"
             filterable
-            remote
-            :remote-method="getUniversities"
-            :loading="searching"
-            style="width: 100%"
-          )
-            el-option(
-              v-for="uni in unisSearch"
-              :key="uni.code"
-              :label="`${uni.code} - ${uni.name}`"
-              :value="uni.code"
-            )
-
-      el-form-item(label="Ngành")
-        el-col(:span="24" align="right")
-          el-select(
-            v-model="branchId"
             style="width: 100%"
           )
             el-option(
               v-for="branch in branches"
-              :key="branch.id"
-              :label="branch.branch"
-              :value="branch.id"
+              :key="branch"
+              :label="branch"
+              :value="branch"
             )
 
-      el-form-item(label="Tổ hợp môn")
-        el-col(:span="24" align="right")
-          el-select(
-            v-model="comb"
-            style="width: 100%"
+      div(v-show="unisSearch.length > 0")
+        p.el-form-item__label(style="float: none; text-align: left") Danh sách gợi ý
+        el-table(:data="unisSearch")
+          el-table-column(
+            label="Trường"
+            prop="name"
+            width="250"
           )
-            el-option(
-              v-for="com in selectedBranchCombs"
-              :key="com"
-              :label="com"
-              :value="com"
-            )
+          el-table-column(
+            label="Ngành"
+            prop="branch"
+            width="200"
+          )
+          el-table-column(
+            label="Khối"
+            prop="combination"
+          )
+          el-table-column(
+            label="Xác suất đỗ"
+            prop="prob"
+          )
+            template(slot-scope="scope")
+              | {{ (scope.row.prob * 100).toFixed(1) }} %
+
+          el-table-column(
+            label="Thêm nguyện vọng"
+          )
+            template(slot-scope="scope")
+              el-button(
+                type="primary"
+                size="small"
+                @click="$emit('addWish', { university_id: scope.row.id })"
+              ) Thêm
+
 
       div(align="center" style="margin-top: 20px")
         el-button(
@@ -73,30 +79,19 @@
         type: Boolean,
         default: false,
       },
-
-      wish: {
-        type: Object,
-        default: () => ({}),
-      },
-
-      type: {
-        type: String,
-        default: 'add',
-      },
     },
 
     data() {
       return {
-        tempWish: cloneDeep(this.wish),
+        tempWish: {},
         submitting: false,
 
-        unisSearch: [],
-        uniCode: '',
-        searching: false,
-
-        branchId: '',
         branches: [],
-        comb: '',
+        selectedBranch: '',
+
+        unisSearch: [],
+        uniId: '',
+        searching: false,
       }
     },
 
@@ -112,34 +107,16 @@
           }
         },
       },
-
-      selectedBranchCombs() {
-        if (!this.branchId) {
-          return []
-        }
-
-        return this.branches.find(b => b.id === this.branchId).combinations
-      },
     },
 
     watch: {
-      wish() {
-        this.$set(this, 'tempWish', cloneDeep(this.wish))
+      selectedBranch() {
+        this.getRecommend(this.selectedBranch)
       },
+    },
 
-      type() {
-        this.$set(this, 'tempWish', cloneDeep(this.wish))
-      },
-
-      uniCode() {
-        if (this.uniCode.length > 0) {
-          this.getBranches()
-        }
-      },
-
-      branchId() {
-        this.$set(this, 'comb', this.selectedBranchCombs[0])
-      },
+    created() {
+      this.getBranch()
     },
 
     methods: {
@@ -148,15 +125,10 @@
           this.submitting = true
           if (valid && this.type === 'add') {
             this.$emit('addWish', {
-              university_id: this.branchId,
-              combination: this.comb,
+              university_id: this.uniId,
             })
 
-            this.uniCode = ''
-            this.comb = ''
-            this.unisSearch = []
-            this.branches = []
-            this.branchId = ''
+            this.uniId = ''
           } else if (valid && this.type === 'edit') {
           }
 
@@ -169,23 +141,23 @@
         this.$emit('close')
       },
 
-      getUniversities(query) {
+      getBranch() {
+        return axios.get('/branches')
+          .then(({data}) => {
+            this.$set(this, 'branches', data)
+          })
+      },
+
+      getRecommend(query) {
         this.searching = true
-        return axios.get('/search-universities', {
+        return axios.get('/recommend', {
           params: {
             q: query,
           },
         })
           .then(({data}) => {
             this.searching = false
-            this.$set(this, 'unisSearch', data.universities)
-          })
-      },
-
-      getBranches() {
-        return axios.get(`/universities/${this.uniCode}/branches`)
-          .then(({data}) => {
-            this.$set(this, 'branches', data)
+            this.$set(this, 'unisSearch', data)
           })
       },
     },

@@ -46,13 +46,38 @@ module Api
     end
 
     def recommend
-      unis = University.order(:rank, :name)
+      unis = University.order(:rank, :name).where(combination: ['A00', 'A01', 'B00', 'C00', 'D01'])
       params[:q].split(' ').each do |q|
         query = "%#{q}%"
         unis = unis.where("branch ILIKE ?", query)
       end
 
-      render json: unis.first(10)
+      unis = unis.all.map do |uni|
+        score = @current_user.score_in(uni.combination)
+        uni.as_json.merge({
+          'prob' => uni.accepted_probability(score)
+        })
+      end
+
+      threshold = 0.05
+      unis = unis.sort do |x, y|
+        if x['prob'] < y['prob']
+          if (x['code'] != y['code']) && (x['rank'] > y['rank'] && y['prob'] - x['prob'] <= threshold)
+            -1
+          else
+            1
+          end
+        else
+          if (x['code'] != y['code']) && (x['rank'] < y['rank'] && x['prob'] - y['prob'] <= threshold)
+            1
+          else
+            -1
+          end
+        end
+        # y['prob'] <=> x['prob']
+      end
+
+      render json: unis
     end
   end
 end

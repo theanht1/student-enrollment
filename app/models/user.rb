@@ -19,4 +19,14 @@ class User < ApplicationRecord
       }
     end
   end
+
+  def score_in combination
+    comb = Combination.find_by(code: combination)
+
+    score1 = scores.find { |s| s['subject_id'] == comb.id1 } || {}
+    score2 = scores.find { |s| s['subject_id'] == comb.id2 } || {}
+    score3 = scores.find { |s| s['subject_id'] == comb.id3 } || {}
+
+    (score1['score'] || 0) + (score2['score'] || 0) + (score3['score'] || 0)
+  end
 end
