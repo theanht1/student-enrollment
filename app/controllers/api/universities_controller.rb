@@ -65,20 +65,21 @@ module Api
 
       threshold = 0.05
       unis = unis.sort do |x, y|
-        if x['prob'] < y['prob']
-          if (x['code'] != y['code']) && (x['rank'] > y['rank'] && y['prob'] - x['prob'] <= threshold)
+        if x['code'] == y['code']
+          y['prob'] <=> x['prob']
+        elsif x['prob'] < y['prob']
+          if x['rank'] < y['rank'] && y['prob'] - x['prob'] <= threshold
             -1
           else
             1
           end
         else
-          if (x['code'] != y['code']) && (x['rank'] < y['rank'] && x['prob'] - y['prob'] <= threshold)
+          if x['rank'] > y['rank'] && x['prob'] - y['prob'] <= threshold
             1
           else
             -1
           end
         end
-        # y['prob'] <=> x['prob']
       end
 
       render json: unis
