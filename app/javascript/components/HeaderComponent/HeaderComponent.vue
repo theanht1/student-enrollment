@@ -70,7 +70,7 @@
 
 <style module>
   .header {
-    background-color: #f9f9f9;
+    background-color: #f9f9f9 !important;
     width: 100vw;
     text-align: center;
   }

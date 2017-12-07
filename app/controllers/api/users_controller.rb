@@ -3,7 +3,8 @@ module Api
 
     def update
       if @current_user.update({
-        scores: params[:user][:scores]
+        scores: params[:user][:scores],
+        priority_score: params[:user][:priority_score]
       })
         render json: @current_user.detail_info
       else

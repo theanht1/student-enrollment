@@ -9,6 +9,13 @@
     el-form-item(label="Ngày sinh")
       el-input(v-model="user.birthday" :disabled="true")
 
+    el-form-item(label="Điểm ưu tiên")
+      el-input-number(
+        v-model="user.priority_score"
+        :step="0.5"
+        :min="0"
+      )
+
     div
       p.el-form-item__label(style="float: none; text-align: left") Điểm thi
       el-row(:gutter="30")
