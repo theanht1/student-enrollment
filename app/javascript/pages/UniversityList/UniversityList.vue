@@ -28,9 +28,8 @@
         width="200"
       )
       el-table-column(
-        prop="combinations"
+        prop="combination"
         label="Khối"
-        :formatter="combinationsFormat"
       )
       el-table-column(
         prop="score_2016"
@@ -66,7 +65,7 @@
         total: 0,
 
         search: '',
-        perPage: 10,
+        perPage: 20,
         page: 1,
         loading: false,
       }

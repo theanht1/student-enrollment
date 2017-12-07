@@ -33,8 +33,21 @@
             el-option(
               v-for="branch in branches"
               :key="branch.id"
-              :label="`${branch.branch} - ${branch.combination}`"
+              :label="branch.branch"
               :value="branch.id"
+            )
+
+      el-form-item(label="Tổ hợp môn")
+        el-col(:span="24" align="right")
+          el-select(
+            v-model="comb"
+            style="width: 100%"
+          )
+            el-option(
+              v-for="com in selectedBranchCombs"
+              :key="com"
+              :label="com"
+              :value="com"
             )
 
       div(align="center" style="margin-top: 20px")
@@ -83,6 +96,7 @@
 
         branchId: '',
         branches: [],
+        comb: '',
       }
     },
 
@@ -97,6 +111,14 @@
             this.$emit('close')
           }
         },
+      },
+
+      selectedBranchCombs() {
+        if (!this.branchId) {
+          return []
+        }
+
+        return this.branches.find(b => b.id === this.branchId).combinations
       },
     },
 
@@ -114,6 +136,10 @@
           this.getBranches()
         }
       },
+
+      branchId() {
+        this.$set(this, 'comb', this.selectedBranchCombs[0])
+      },
     },
 
     methods: {
@@ -123,9 +149,11 @@
           if (valid && this.type === 'add') {
             this.$emit('addWish', {
               university_id: this.branchId,
+              combination: this.comb,
             })
 
             this.uniCode = ''
+            this.comb = ''
             this.unisSearch = []
             this.branches = []
             this.branchId = ''

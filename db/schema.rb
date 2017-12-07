@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171206151146) do
+ActiveRecord::Schema.define(version: 20171207024723) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -42,7 +42,6 @@ ActiveRecord::Schema.define(version: 20171206151146) do
     t.string "code"
     t.string "name"
     t.string "branch"
-    t.string "combinations", array: true
     t.integer "amount_2016"
     t.float "score_2016"
     t.integer "amount_2017"
@@ -50,6 +49,7 @@ ActiveRecord::Schema.define(version: 20171206151146) do
     t.datetime "updated_at", null: false
     t.integer "rank"
     t.float "threshold_score"
+    t.string "combination"
   end
 
   create_table "users", force: :cascade do |t|
@@ -65,7 +65,6 @@ ActiveRecord::Schema.define(version: 20171206151146) do
   create_table "wishes", force: :cascade do |t|
     t.integer "user_id"
     t.integer "university_id"
-    t.string "combination"
   end
 
   add_foreign_key "wishes", "universities"

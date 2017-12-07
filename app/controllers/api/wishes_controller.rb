@@ -9,7 +9,6 @@ module Api
       wish = Wish.new({
         user_id: @current_user.id,
         university_id: params[:university_id],
-        combination: params[:combination],
       })
 
       if wish.save

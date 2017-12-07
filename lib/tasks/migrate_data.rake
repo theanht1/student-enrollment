@@ -97,3 +97,23 @@ task add_threshold_score: :environment do
     end
   end
 end
+
+desc "Flatten university combinations"
+task flatten_combinations: :environment do
+  University.all.each do |uni|
+    tmp_uni = uni.as_json
+    tmp_uni.delete('id')
+    tmp_uni.delete('created_at')
+    tmp_uni.delete('updated_at')
+
+    uni.update(combination: uni.combinations[0])
+
+    if uni.combinations.length > 1
+      uni.combinations[1..-1].each do |comb|
+        University.create(tmp_uni.merge({
+          'combination' => comb
+        }))
+      end
+    end
+  end
+end

@@ -23,7 +23,7 @@
         width="200"
       )
       el-table-column(
-        prop="combination"
+        prop="university.combination"
         label="Khối"
       )
       el-table-column(
@@ -56,6 +56,17 @@
         @click="showWishModal = true"
       ) Thêm nguyện vọng
 
+      el-button(
+        type="primary"
+        @click="showRecommendModal = true"
+      ) Gợi ý nguyện vọng
+
+      recommend-wish-modal(
+        :visible-prop="showRecommendModal"
+        @close="showRecommendModal = false"
+        @addWish="addWish"
+      )
+
       wish-modal(
         :visible-prop="showWishModal"
         type="add"
@@ -69,15 +80,17 @@
   import axios from 'axios'
 
   import WishModal from '@/../components/WishModal'
+  import RecommendWishModal from '@/../components/RecommendWishModal'
 
   export default {
-    components: { WishModal },
+    components: { WishModal, RecommendWishModal },
 
     data() {
       return {
         wishes: [],
 
         showWishModal: false,
+        showRecommendModal: false,
       }
     },
 
@@ -115,10 +128,9 @@
           })
       },
 
-      addWish({ university_id, combination}) {
+      addWish({ university_id }) {
         return axios.post('/wishes', {
           university_id,
-          combination,
         })
           .then(() => {
             this.$notify.success({

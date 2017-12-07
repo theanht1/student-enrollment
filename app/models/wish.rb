@@ -6,7 +6,6 @@ class Wish < ApplicationRecord
     score = user_score
     {
       id: id,
-      combination: combination,
       university: university,
       prob: accepted_probability(score),
       score: score
@@ -14,7 +13,7 @@ class Wish < ApplicationRecord
   end
 
   def user_score
-    comb = Combination.find_by(code: combination)
+    comb = Combination.find_by(code: university.combination)
 
     scores = user.scores
 
@@ -30,7 +29,7 @@ class Wish < ApplicationRecord
       return 0
     end
 
-    UniversalPoint.accepted_probability(combination, score, university.score_2016,
+    UniversalPoint.accepted_probability(university.combination, score, university.score_2016,
       university.amount_2017, university.amount_2016)
   end
 end
