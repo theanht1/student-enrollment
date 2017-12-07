@@ -46,7 +46,11 @@ module Api
     end
 
     def recommend
-      unis = University.order(:rank, :name).where(combination: ['A00', 'A01', 'B00', 'C00', 'D01'])
+      wish_ids = @current_user.wishes.map(&:university_id)
+      unis = University.order(:rank, :name)
+                .where(combination: ['A00', 'A01', 'B00', 'C00', 'D01'])
+                .where.not(id: wish_ids)
+
       params[:q].split(' ').each do |q|
         query = "%#{q}%"
         unis = unis.where("branch ILIKE ?", query)

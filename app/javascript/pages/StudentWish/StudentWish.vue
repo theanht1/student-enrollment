@@ -38,7 +38,9 @@
         label="Xác suất đỗ"
       )
         template(slot-scope="scope")
-          | {{ (scope.row.prob * 100).toFixed(1) }} %
+          el-tag(
+          :type="probEval(scope.row.prob).type"
+          ) {{ probEval(scope.row.prob).text }}
 
       el-table-column(
         width="200"
@@ -95,6 +97,21 @@
 
   import WishModal from '@/../components/WishModal'
   import RecommendWishModal from '@/../components/RecommendWishModal'
+
+  const PROB_EVAL = [
+    {
+      type: 'danger',
+      text: 'Thấp',
+    },
+    {
+      type: 'warning',
+      text: 'Trung bình',
+    },
+    {
+      type: 'success',
+      text: 'Cao',
+    },
+  ]
 
   export default {
     components: { WishModal, RecommendWishModal },
@@ -178,6 +195,15 @@
         this.wishes.splice(index + 1, 0, this.wishes.splice(index,1)[0]);
 
         this.changeOrder()
+      },
+
+      probEval(score) {
+        if (score < 0.7) {
+          return PROB_EVAL[0]
+        } else if (score < 0.8) {
+          return PROB_EVAL[1]
+        }
+        return PROB_EVAL[2]
       },
     },
   }
