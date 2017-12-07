@@ -12,8 +12,8 @@ Vue.use(Router)
 const routes = [
   {
     path: '/',
-    name: 'Index',
-    component: Index,
+    name: 'UniversityList',
+    component: UniversityList,
   },
   {
     path: '/login',
@@ -29,11 +29,6 @@ const routes = [
     path: '/nguyen-vong',
     name: 'StudentWish',
     component: StudentWish,
-  },
-  {
-    path: '/dai-hoc',
-    name: 'UniversityList',
-    component: UniversityList,
   },
 ]
 

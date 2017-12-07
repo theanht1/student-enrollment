@@ -26,11 +26,8 @@
             router-link(to="/nguyen-vong")
               el-menu-item(index="StudentWish") Danh sách nguyện vọng
 
-          router-link(to="/dai-hoc")
-            el-menu-item(index="UniversityList") Danh sách trường/ngành
-
           router-link(to="/")
-            el-menu-item(index="Index") Trang chủ
+            el-menu-item(index="UniversityList") Danh sách trường/ngành
 
           el-menu-item(
             v-if="isAuthenticated"
@@ -63,6 +60,9 @@
     methods: {
       logout() {
         return this.$store.dispatch('logout')
+          .then(() => {
+            this.$router.push('/')
+          })
       },
     },
   }
